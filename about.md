@@ -29,3 +29,6 @@ Want to know more, or connect ?
 Thanks for dropping by!,
 
 Ismail Marmoush
+
+
+<a href="https://stackoverflow.com/users/263215/ismail-marmoush"><img src="https://stackoverflow.com/users/flair/263215.png" width="208" height="58" alt="profile for Ismail Marmoush at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Ismail Marmoush at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
