@@ -33,6 +33,9 @@ Some projects might not be used for memoria.io anymore, but since they might be 
 **[Ansible Docker](https://github.com/memoria-io/ansible-docker)**
 > Ansible through docker, so you don't have to install ansible on your machine.
 
+**[Kafka Docker](https://github.com/memoria-io/kafka-docker)**
+> Dockerised kafka
+
 **[JANN](https://github.com/memoria-io/jann)**
 > A Java Artificial Neural Network Framework, currently under major changes.
 
