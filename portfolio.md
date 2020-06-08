@@ -3,12 +3,41 @@ layout: page
 title: Portfolio
 comments: false
 ---
-**[2019 - Pulse](https://github.com/IsmailMarmoush/pulse)**
-> A small synchronous counter app with 50K requests per second, might be used for events synchronization between multiple topics  
 
-**[2019 - jutils](https://github.com/IsmailMarmoush/jutils)**
+## Memoria.io
+[Memoria](https://memoria.io) Is an opensource organization, I've created for my opensource projects and as an umbrella where OS enthusiasts may want to contribute. 
+Since 2015 I've invested time to implement my ideas, and I've used it as a learning platform as well.
+A wiseman once said "What we have to learn to do, we learn by doing" - Aristotle, Ethics.    
+
+Projects under development in memoria, ordered by priority:
+
+**[jutils](https://github.com/memoria-io/jutils)**
 > A small utility library mainly for functional shortcuts when using Project Reactor, Reactor Netty and VAVR,
-> also some GSON adapters, and nonblocking YAML utils, File utils.    
+> also some GSON adapters, and nonblocking YAML utils, File utils.
+
+**[jbom](https://github.com/memoria-io/jbom)**
+> A Bill of Materials (BOM) for memoria opensource projects
+ 
+**[Pulse](https://github.com/memoria-io/pulse)**
+> A research/educational small synchronous counter app with 50K requests per second, might be used for events synchronization between multiple topics  
+    
+**[Java Docker](https://github.com/memoria-io/ansible-docker)**
+> Latest Jdk +maven through docker, so you don't have to install ansible on your machine.
+
+>**[Etcd Docker](https://github.com/memoria-io/etcd-docker)**
+> A quick Etcd cluster
+
+**[Ansible Docker](https://github.com/memoria-io/ansible-docker)**
+> Ansible through docker, so you don't have to install ansible on your machine.
+
+**[JANN](https://github.com/memoria-io/jann)**
+> A Java Artificial Neural Network Framework, currently under major changes.
+
+**[Sunstreet](https://github.com/memoria-io/sunstreet)**
+> Sunstreet is a single page app, github template.
+
+## Sample, toy, exercise projects
+The following repositories can be found [here](https://github.com/IsmailMarmoush?tab=repositories) under my personal github
 
 **[2019 - Transport](https://github.com/IsmailMarmoush/transport)**
 > A small challenge implemented in Scala, as Restful microservice, using [http4s](https://http4s.org/) and other libraries.
@@ -18,20 +47,11 @@ comments: false
 > using [Reactor Netty](https://projectreactor.io/), [Vavr.io](https://Vavr.io) 
 > tried to do CQRS (semi success, needs little clean up), Gson and other libs.
 
-**[2018 - Etcd Docker](https://github.com/IsmailMarmoush/etcd-docker)**
-> A quick Etcd cluster
-
 **[2018 - Go Samples](https://github.com/IsmailMarmoush/go-samples)**
 > Was learning Go language and started this
 
-**[2016 - Ansible Docker](https://github.com/IsmailMarmoush/ansible-docker)**
-> Ansible through docker, so you don't have to install ansible on your machine.
-
 **[2015 - Scala Samples](https://github.com/IsmailMarmoush/scala-samples)**
 > Was and still learning Scala
-
-**[2015 - Sunstreet](https://github.com/ismailMarmoush/sunstreet)**
-> Sunstreet is a single page app, github template.
 
 **[2015 - Devops Samples](https://github.com/IsmailMarmoush/devops-samples)**
 > It's easy to forget devops scripts, still updating this.
@@ -41,9 +61,6 @@ comments: false
 
 **[2015 - Debian Installation Guide](https://github.com/IsmailMarmoush/debian)**
 > Installing Debian was a long forgettable process, so I kept it.
-
-**[2014 - Java Samples](https://github.com/IsmailMarmoush/java-samples)**
-> A set of small of Java code samples, algorithms, design patterns, books questions etc.
 
 **[2012 - Google App Engine Sample](https://github.com/IsmailMarmoush/java-googleappengine)**
 > Google App Engine Boilerplate from time when I was working in bright creations.
@@ -57,9 +74,6 @@ comments: false
 **[2011 - Web Crawler](https://github.com/IsmailMarmoush/java-webcrawler)**
 > A web crawler I used after college to send my resumes to over 2500 company email in Egypt,
 > I got around 10 interviews in the first couple of weeks soon after.
-
-**[2011 - JANN](https://github.com/IsmailMarmoush/jann)**
-> A Java Artificial Neural Network Framework, currently under major changes.
 
 **[2010 - Matlab](https://github.com/IsmailMarmoush/matlab-samples)**
 > Industrial Handling Robotic Arm Kinematics driver 2010** A simple 3 DOF kinematics calculator.
