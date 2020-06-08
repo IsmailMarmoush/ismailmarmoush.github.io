@@ -15,16 +15,17 @@ Projects under development in memoria, ordered by priority:
 > A small utility library mainly for functional shortcuts when using Project Reactor, Reactor Netty and VAVR,
 > also some GSON adapters, and nonblocking YAML utils, File utils.
 
+
 **[jbom](https://github.com/memoria-io/jbom)**
 > A Bill of Materials (BOM) for memoria opensource projects
- 
+
 **[Pulse](https://github.com/memoria-io/pulse)**
 > A research/educational small synchronous counter app with 50K requests per second, might be used for events synchronization between multiple topics  
     
 **[Java Docker](https://github.com/memoria-io/ansible-docker)**
 > Latest Jdk +maven through docker, so you don't have to install ansible on your machine.
 
->**[Etcd Docker](https://github.com/memoria-io/etcd-docker)**
+**[Etcd Docker](https://github.com/memoria-io/etcd-docker)**
 > A quick Etcd cluster
 
 **[Ansible Docker](https://github.com/memoria-io/ansible-docker)**
