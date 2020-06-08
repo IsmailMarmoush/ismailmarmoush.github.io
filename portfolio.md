@@ -4,17 +4,19 @@ title: Portfolio
 comments: false
 ---
 
-## Memoria.io
-[Memoria](https://memoria.io) Is an opensource organization, I've created for my opensource projects and as an umbrella where OS enthusiasts may want to contribute. 
-Since 2015 I've invested time to implement my ideas, and I've used it as a learning platform as well.
-A wiseman once said "What we have to learn to do, we learn by doing" - Aristotle, Ethics.    
+# Memoria 
+[Memoria.io](https://memoria.io) is the product of which I'm building privately and on my free time, 
+one day I decided to open source many projects which it depends on, and they can be found in 
+[Memoria Github organization](https://github.memoria-io).
 
-Projects under development in memoria, ordered by priority:
+Many of the projects were originally built with learning motivation A wiseman once said 
+"What we have to learn to do, we learn by doing" - Aristotle, Ethics. 
+
+Some projects might not be used for memoria.io anymore, but since they might be useful to others they were left open. 
 
 **[jutils](https://github.com/memoria-io/jutils)**
 > A small utility library mainly for functional shortcuts when using Project Reactor, Reactor Netty and VAVR,
 > also some GSON adapters, and nonblocking YAML utils, File utils.
-
 
 **[jbom](https://github.com/memoria-io/jbom)**
 > A Bill of Materials (BOM) for memoria opensource projects
@@ -37,8 +39,9 @@ Projects under development in memoria, ordered by priority:
 **[Sunstreet](https://github.com/memoria-io/sunstreet)**
 > Sunstreet is a single page app, github template.
 
-## Sample, toy, exercise projects
+## Personal Projects
 The following repositories can be found [here](https://github.com/IsmailMarmoush?tab=repositories) under my personal github
+Some are toy projects, sample code, or even coding challenges.
 
 **[2019 - Transport](https://github.com/IsmailMarmoush/transport)**
 > A small challenge implemented in Scala, as Restful microservice, using [http4s](https://http4s.org/) and other libraries.
