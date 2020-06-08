@@ -5,14 +5,12 @@ comments: false
 ---
 
 # Memoria 
-[Memoria.io](https://memoria.io) is the product of which I'm building privately and on my free time, 
-one day I decided to open source many projects which it depends on, and they can be found in 
-[Memoria Github organization](https://github.memoria-io).
+* [Memoria.io](https://memoria.io) is a product that's currently under construction.
+* [Memoria Github organization](https://github.com/memoria-io) contains opensourced projects.
 
-Many of the projects were originally built with learning motivation A wiseman once said 
+> Please note, that many of the projects were originally built with learning motivation. A wiseman once said 
 "What we have to learn to do, we learn by doing" - Aristotle, Ethics. 
 
-Some projects might not be used for memoria.io anymore, but since they might be useful to others they were left open. 
 
 **[jutils](https://github.com/memoria-io/jutils)**
 > A small utility library mainly for functional shortcuts when using Project Reactor, Reactor Netty and VAVR,
