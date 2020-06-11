@@ -34,9 +34,6 @@ comments: false
 **[Kafka Docker](https://github.com/memoria-io/kafka-docker)**
 > Dockerised kafka
 
-**[JANN](https://github.com/memoria-io/jann)**
-> A Java Artificial Neural Network Framework, currently under major changes.
-
 **[Sunstreet](https://github.com/memoria-io/sunstreet)**
 > Sunstreet is a single page app, github template.
 
@@ -79,6 +76,9 @@ Some are toy projects, sample code, or even coding challenges.
 **[2011 - Web Crawler](https://github.com/IsmailMarmoush/java-webcrawler)**
 > A web crawler I used after college to send my resumes to over 2500 company email in Egypt,
 > I got around 10 interviews in the first couple of weeks soon after.
+
+**[2011 JANN](https://github.com/memoria-io/jann)**
+> A Java Artificial Neural Network Framework, currently under major changes.
 
 **[2010 - Matlab](https://github.com/IsmailMarmoush/matlab-samples)**
 > Industrial Handling Robotic Arm Kinematics driver 2010** A simple 3 DOF kinematics calculator.
