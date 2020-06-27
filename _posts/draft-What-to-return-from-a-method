@@ -1,4 +1,4 @@
----
+
 layout: post
 title:  "What this method should return?"
 author: ismailmarmoush
@@ -6,7 +6,7 @@ image: /assets/posts/error.jpg
 featured: false
 hidden: false
 tags: architecture
----
+
 
 I ask myself this question repeatedly and carefully, take my time with it. Sometimes I look back and see a journey 
 * At the start of one's life in programming it seemed like a very a tough question (and it is) as we don't know our options 
