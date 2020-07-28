@@ -41,6 +41,9 @@ comments: false
 The following repositories can be found [here](https://github.com/IsmailMarmoush?tab=repositories) under my personal github
 Some are toy projects, sample code, or even coding challenges.
 
+**[2020 - Magazine](https://github.com/IsmailMarmoush/magazine)**
+> An eventsourcing implementation example with hexagonal like architecture 
+
 **[2019 - Transport](https://github.com/IsmailMarmoush/transport)**
 > A small challenge implemented in Scala, as Restful microservice, using [http4s](https://http4s.org/) and other libraries.
 
