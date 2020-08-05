@@ -23,7 +23,7 @@ comments: false
 > A research/educational small synchronous counter app with 50K requests per second, might be used for events synchronization between multiple topics  
     
 **[Java Docker](https://github.com/memoria-io/ansible-docker)**
-> Latest Jdk +maven through docker, so you don't have to install ansible on your machine.
+> Latest JDK and Maven, installed over docker.
 
 **[Etcd Docker](https://github.com/memoria-io/etcd-docker)**
 > A quick Etcd cluster
@@ -32,17 +32,17 @@ comments: false
 > Ansible through docker, so you don't have to install ansible on your machine.
 
 **[Kafka Docker](https://github.com/memoria-io/kafka-docker)**
-> Dockerised kafka
+> Dockerized kafka
 
 **[Sunstreet](https://github.com/memoria-io/sunstreet)**
-> Sunstreet is a single page app, github template.
+> A single page app, and a github template.
 
 ## Personal Projects
 The following repositories can be found [here](https://github.com/IsmailMarmoush?tab=repositories) under my personal github
 Some are toy projects, sample code, or even coding challenges.
 
 **[2020 - Magazine](https://github.com/IsmailMarmoush/magazine)**
-> An eventsourcing implementation example with hexagonal like architecture 
+> An Eventsourcing implementation example with hexagonal/adapter&port like architecture 
 
 **[2019 - Transport](https://github.com/IsmailMarmoush/transport)**
 > A small challenge implemented in Scala, as Restful microservice, using [http4s](https://http4s.org/) and other libraries.
