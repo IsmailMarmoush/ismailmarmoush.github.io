@@ -9,6 +9,9 @@ tags: architecture
 ---
 > This post is part of architecture/software engineering & craftsmanship series
 
+> Note: In this article I'm not talking from a DDD perspective a microservice could have multiple modules
+representing certain bounded contexts, but discussing a microservice as a whole unit.
+
 First, why would anyone care about a microservice size/complexity? reasons could
 be [orphaned projects](https://marmoush.com/2019/04/01/architecture-p02-orphaned-projects.html), ending up with being
 another monolith, or even incidental architecture complexity.
@@ -111,6 +114,9 @@ Going back to business again you ask your stakeholders couple of simple question
 
 The bad news is there's no secret magical function to put the previous numbers in, in order to get a yes/no answer, but
 the good news is that you can come up with your own according to you and your stakeholder's toleration.
+
+> So next time someone asks you how big should this microservice be or should we refactor this microservice, the answer
+> would be how long are we willing to give time for someone to understand it, if it's less than it actually is then you got your answer
 
 As a plus, with the previous data:
 
