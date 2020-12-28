@@ -89,7 +89,7 @@ features or fixing bugs? again never.
 So, you need to first be with a peace that you can't find an actual number to rely on, but you can find a good estimation
 that gets you far enough to know which services are worth refactoring and which are not.
 
-Going back to business again you ask your stakeholders one simple question
+Going back to business again you ask your stakeholders couple of simple questions:
 
 1. How many are your current service x heroes? (people who can maintain/deploy/manage service x alone if they had to)
 1. How long do you think such service should take to be understood(being able to deliver a feature or fix a bug) by
