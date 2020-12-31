@@ -7,39 +7,33 @@ featured: false
 hidden: false 
 tags: architecture
 ---
-> This post is part of architecture/software engineering & craftsmanship series
 
-> Note: In this article I'm not talking from a DDD perspective a microservice could have multiple modules
-representing certain bounded contexts, but discussing a microservice as a whole unit.
+> Note: This article discusses microservices as a whole, not on bounded context (DDD) level. Also note that how big/size
+are just layman terms, the real intention here is complexity. 
 
-First, why would anyone care about a microservice size/complexity? reasons could
-be [orphaned projects](https://marmoush.com/2019/04/01/architecture-p02-orphaned-projects.html), ending up with being
-another monolith, or even incidental architecture complexity.
+Why care about microservice complexity ?
 
-How far can we allow a microservice to become more complex, knowing that it's a very subjective and relative topic to measure
-despite using [analysis tools](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
-and [creative methods](https://blog.codacy.com/an-in-depth-explanation-of-code-complexity/).
+For multiple reasons one could
+be [orphaned projects](https://marmoush.com/2019/04/01/architecture-p02-orphaned-projects.html), another being afraid of
+ending up with being another monolith, or even incidental architecture complexity.
+
+There are many tools like [analysis tools](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+and [techniques](https://blog.codacy.com/an-in-depth-explanation-of-code-complexity/) for tackling code
+complexity, yet most of us don't know when it's worth time and money to split a service or make critical changes.  
 
 ## It's a Problem of measurement
 
-> Some teams use the two-pizza rule from Amazon to estimate the team size, and then based on the team size they decide how
+Some teams use the two-pizza rule from Amazon to estimate the team size, and then based on the team size they decide how
 many and more importantly **which** microservices could that team handle and that decision is usually based on the power
-players opinions ( aka
-seniors, architects, or even popular),
-> Other teams use previously mentioned code analysis tools or even line counts.
+players opinions ( aka seniors, architects etc), Other teams use previously mentioned code analysis tools or even line
+counts. The issues here are:
 
-To be honest, I don't like the approach at all because of the following:
-
-The fact that anyone would rely on team size or sole opinions of some people to measure something is a disaster by
-itself, this is like a group of people opening their arms wide and saying this how long a meter is.
-
-* Code complexity is very relative, it's a good indicator but never a reliable one, you simply can't say if the complexity
-  is x then we chop the microservice into halves
-* Lines of code are never a measurement of complexity, take code written in scala or C++ for example, it's
-  short but can drive you crazy
-* Your team members are already experts (they're probably the ones who wrote it for crying out loud), how would you rely
-  on that in comparison to the microservice moved to another team's possession, or a new member trying to understand
-  what the heck those guys wrote.
+* Code complexity is very relative, it's a good indicator but never a reliable one, you simply can't say if the
+  complexity is x then we chop the microservice into halves
+* Lines of code are never a measurement of complexity, take code written in scala or C++ for example, it's short but can
+  drive you crazy
+* Your team members are already experts (they're probably the ones who wrote it), their opinion is definitely valuable
+  but still relative to their knowledge and if they say it's 6/10 complex you don't know if that's actually 6 or 9.
 
 So, You need to define a good constant that is measurable, and then you have your unit of measurement.
 
@@ -55,76 +49,43 @@ microservice attribute(s) that's measurable with a natural unit.
 
 ### 1.0 Microservice as an object, not a subject
 
-For a better definition of what constitutes your microservice complexity, look at your microservice and answer:
-
-What does your microservice consist of?
-
-* To help with that, you need to collect all the technologies an engineer touches when he's about to implement a new
-  feature in such a microservice or fix a bug
-* Do you have your crazy implementation of a CI/CD pipeline, or it's a simple SAAS?
-* How popular is your tech stack? are you using a de-facto standard framework for example, or your own
-* Your programming language, "Are you hiring Java engineers who are willing to learn Scala ? " maybe it's Kotlin
-* How well documented your service
-    * aka How long it takes to read and understand the documents, and how much the document cover of such service.
+Your microservice isn't just an executable file it's a complete ecosystem that an engineer touches daily; from CI/CD
+cycles to technology stacks, not to mention your programming language choice and how well documented is your
+microservice. All these are factors which contribute to the complexity of the service.
 
 ### 2.0 Microservice quantifiable attribute
 
-Since our microservice complexity isn't a measurable quantity, we go back to the basics "business needs" and
-start from there. Why did we end up with complexity in the first place, because we want our services not to grow out of hand
-and lose control, so what if we lost control? we might have a big ball of mud that no one understands or wants to
-touch, high turnover would render such service orphaned, and it would take a while, or a big amount of money to find
-a talent who could handle it.
+Since complexity in our case isn't a measurable quantity, we go back to the basics which are "business needs".
 
-So the basic primitive need is? right, **"Understanding"** well, that's already obvious, isn't it? complexity vs
-understanding kind of thing. We finally reached a concrete yes or no element, hooray!
-
-Of course, people are not light pulps, they don't look at a microservice, and say "ah, Ok I understand" or "No, I don't"
-It takes time, it's a process, it's people interacting and asking questions and all of that.
-
-The good news is we reached a basic attribute **"The time it takes to understand x microservice"** now we should measure
-it which might be hard but hopefully doable.
+The basic need here is how fast (in average) in reality people get to understand and be able to fully maintain and
+operate the service from zero knowledge, versus our expectations. That percentage is crucial.  
 
 ### 3.0 Measure it
 
-Can you measure the unknown ? of course not, have anybody ever came up with the perfect time estimation method of delivering
-features or fixing bugs? again never.
+Nobody can measure the unknown, Can you measure the unknown or come up with perfect time estimation methods, but we can
+try to come as much closer as we possibly can.
 
-So, you need to first be with a peace that you can't find an actual number to rely on, but you can find a good estimation
-that gets you far enough to know which services are worth refactoring and which are not.
+Knowing the attribute from previous section (time to understand) we have a couple of angles:
 
-Going back to business again you ask your stakeholders couple of simple questions:
-
-1. How many are your current service x heroes? (people who can maintain/deploy/manage service x alone if they had to)
-1. How long do you think such service should take to be understood(being able to deliver a feature or fix a bug) by
-   the new joiner who just been onboarded
-    * Versus the average time x new joiner engineers took.
-1. How long do you think such a service should take to be understood by another team member who never touched the service
-   ?
-    * Versus the average time x engineers from team y took for similar issues
-1. What's the [quorum](https://en.wikipedia.org/wiki/Quorum) of people maintaining such service, taking into
-   consideration the [bus factor](https://en.wikipedia.org/wiki/Bus_factor) of course.
+1. Stakeholders expectation of new joiners understanding time Vs the actual average time on a random selected set
+1. Stakeholders expectation of other team members understanding time Vs the actual average time on a random selected set
+1. What's the expected [quorum](https://en.wikipedia.org/wiki/Quorum) of people maintaining such service according to its risk or impact, taking into
+   consideration the [bus factor](https://en.wikipedia.org/wiki/Bus_factor) of course Vs how many are actually there.
 1. What's your turnover rate?
 
-> Note: As to why it's good to consider the number of experts as a unit while it might seem extreme, your software/business is
-> already getting complex daily with God knows what factor, if you relied on your count on half/half knowledgeable people,
-> then 6 months later the overall knowledge of such service in your team would have decreased to half or something.
->
->It's also better to count on absolute yes (this is your ninja) than on (eh, yeah I could manage) kind of choice
-
-
-The bad news is there's no secret magical function to put the previous numbers in, in order to get a yes/no answer, but
-the good news is that you can come up with your own according to you and your stakeholder's toleration.
+There's no secret magical function to put the previous numbers in, in order to get a number or yes/no answer, but
+the good news is that you can come up with your own according to the team/org risk analysis or simply toleration.
 
 > So next time someone asks you how big should this microservice be or should we refactor this microservice, the answer
-> would be how long are we willing to give time for someone to understand it, if it's less than it actually is then you got your answer
+> would be **How long are we willing to give time for someone to understand it ?**
 
-As a plus, with the previous data:
+With the previous you'd also be able to:
 
-* You'd have transparently communicated your teams status to stakeholders
-* You have managed your expectations and everyone else
-* You can make a wise decision regarding your team collective knowledge
-* What you need next, (e.g Service y is higher risk, should we refactor or increase knowledge)
-* What technologies should I increase in the team based on risk factors not based on lack of knowledge.
+* transparently communicate and manage the stakeholders expectations
+* make wise decisions regarding your team capabilities and services as in:
+    * What you need next, (e.g Service y is higher risk, should we refactor or increase knowledge)
+    * What technologies should I increase in the team based on risk factors not based on lack of knowledge.
 
-> What I presented was only a hypothesis and deduction based on my humble experience of watching failure more than success,
-> If I was right, then it's good for both of us, if I was wrong, I'm a sure collection of such numbers is a good insight by itself. 
+From my humble experience that consisted of lots of failure, I found the previous approach to be very helpful when a
+service is constantly growing and specially horizontally (new unique and complex features added), which means added
+complexity.
