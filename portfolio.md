@@ -41,13 +41,13 @@ comments: false
 The following repositories can be found [here](https://github.com/IsmailMarmoush?tab=repositories) under my personal github
 Some are toy projects, sample code, or even coding challenges.
 
-**[2020 - Magazine](https://github.com/IsmailMarmoush/magazine)**
+**[2020 - Magazine](https://github.com/IsmailMarmoush/java-magazine)**
 > An Eventsourcing implementation example with hexagonal/adapter&port like architecture 
 
-**[2019 - Transport](https://github.com/IsmailMarmoush/transport)**
+**[2019 - Transport](https://github.com/IsmailMarmoush/java-transport)**
 > A small challenge implemented in Scala, as Restful microservice, using [http4s](https://http4s.org/) and other libraries.
 
-**[2019 - Mancala](https://github.com/IsmailMarmoush/mancala)**
+**[2019 - Mancala](https://github.com/IsmailMarmoush/java-mancala)**
 > [Mancala Game](https://en.wikipedia.org/wiki/Mancala), a Java based Restful microservice, 
 > using [Reactor Netty](https://projectreactor.io/), [Vavr.io](https://Vavr.io) 
 > tried to do CQRS (semi success, needs little clean up), Gson and other libs.
