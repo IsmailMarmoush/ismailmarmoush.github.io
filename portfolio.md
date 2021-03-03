@@ -19,22 +19,22 @@ comments: false
 **[jbom](https://github.com/memoria-io/jbom)**
 > A Bill of Materials (BOM) for memoria opensource projects
 
-**[Pulse](https://github.com/memoria-io/pulse)**
+**[pulse](https://github.com/memoria-io/pulse)**
 > A research/educational small synchronous counter app with 50K requests per second, might be used for events synchronization between multiple topics  
     
-**[Java Docker](https://github.com/memoria-io/ansible-docker)**
+**[java Docker](https://github.com/memoria-io/ansible-docker)**
 > Latest JDK and Maven, installed over docker.
 
-**[Etcd Docker](https://github.com/memoria-io/etcd-docker)**
+**[etcd Docker](https://github.com/memoria-io/etcd-docker)**
 > A quick Etcd cluster
 
-**[Ansible Docker](https://github.com/memoria-io/ansible-docker)**
+**[ansible Docker](https://github.com/memoria-io/ansible-docker)**
 > Ansible through docker, so you don't have to install ansible on your machine.
 
-**[Kafka Docker](https://github.com/memoria-io/kafka-docker)**
+**[kafka Docker](https://github.com/memoria-io/kafka-docker)**
 > Dockerized kafka
 
-**[Sunstreet](https://github.com/memoria-io/sunstreet)**
+**[sunstreet](https://github.com/memoria-io/sunstreet)**
 > A single page app, and a github template.
 
 ## Personal Projects
@@ -52,24 +52,6 @@ Some are toy projects, sample code, or even coding challenges.
 > using [Reactor Netty](https://projectreactor.io/), [Vavr.io](https://Vavr.io) 
 > tried to do CQRS (semi success, needs little clean up), Gson and other libs.
 
-**[2018 - Go Samples](https://github.com/IsmailMarmoush/go-samples)**
-> Was learning Go language and started this
-
-**[2015 - Scala Samples](https://github.com/IsmailMarmoush/scala-samples)**
-> Was and still learning Scala
-
-**[2015 - Devops Samples](https://github.com/IsmailMarmoush/devops-samples)**
-> It's easy to forget devops scripts, still updating this.
-
-**[2015 - Java Enterprise Edition Samples](https://github.com/IsmailMarmoush/java-eesamples)**
-> A set of Java Enterprise Edition samples from when I was preparing for Oracle Certified Expert certificate.
-
-**[2015 - Debian Installation Guide](https://github.com/IsmailMarmoush/debian)**
-> Installing Debian was a long forgettable process, so I kept it.
-
-**[2012 - Google App Engine Sample](https://github.com/IsmailMarmoush/java-googleappengine)**
-> Google App Engine Boilerplate from time when I was working in bright creations.
-
 **[2011 - Shortcut virus fix](https://github.com/IsmailMarmoush/java-shortcutvirusfix)**
 > A small fix for shortcut virus written in java
 
@@ -83,14 +65,7 @@ Some are toy projects, sample code, or even coding challenges.
 **[2011 JANN](https://github.com/memoria-io/jann)**
 > A Java Artificial Neural Network Framework, currently under major changes.
 
-**[2010 - Matlab](https://github.com/IsmailMarmoush/matlab-samples)**
-> Industrial Handling Robotic Arm Kinematics driver 2010** A simple 3 DOF kinematics calculator.
+## Code Samples
 
-**[2009 - Prolog Samples](https://github.com/IsmailMarmoush/prolog-samples)**
-> A Set of small projects and code bits:
-> Intelligent X-O Extended in Prolog Game
-> Neural X-O Game
-> distances, solve 2 equations, write, write list, add,add to list, concatenation, deletion, Chess Eight Queens, file handling, names, romanian map, predecessors, Square formula.
-
-**[2008 - Cpp Samples](https://github.com/IsmailMarmoush/cpp-samples)**
-> From College time, Set of small projects and code bits; Palindrome Numbers, Prime Numbers, Roman Numbers, Combination Numbers
+**[2008:Present - Code Samples](https://github.com/IsmailMarmoush/samples)**
+* Code samples of Scala, Java, Go, Matlab, Prolog, CPP
