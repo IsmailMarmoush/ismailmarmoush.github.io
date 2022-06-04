@@ -15,8 +15,9 @@ tags: sac
 * Technical decisions as close as much to affected code
 * Where features docs are placed:
   * Technical: in same repo
-  * Product: either in a different repo for decoupling or a jira, or github issues etc
-* 
+    * Tracking: Todos/Done at the project README
+    * In Todos point to a `docs/featureXYZ.md` file, if the feature details are big
+  * Product: either in a different repo for decoupling or a jira, or GitHub issues etc
 
 ## CI/CD
 
