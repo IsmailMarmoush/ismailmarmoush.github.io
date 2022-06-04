@@ -11,9 +11,11 @@ tags: linux
 Debian Installation and configuration
 
 ## Download
+
 Download debian netinstall iso file
 
 ## Burning ISO to USB in linux
+
 ```
 # To know where your usb
 lsblk
@@ -25,6 +27,7 @@ md5sum /dev/sdb/sdb1
 ## Installation
 
 Put the USB drive, and start installation, after you finish login as root
+
 ```
 apt-get install sudo
 adduser yourname sudo
@@ -36,6 +39,7 @@ sudo apt-get install chkrootkit rkhunter
 ```
 
 ## Generic Configuration
+
 ```
 # Disable ssh from outside
 echo "SSHD: ALL" >> /etc/hosts.deny
@@ -51,13 +55,14 @@ git config --global user.email "youremail@gmail.com"
 git config --global push.default simple
 ```
 
-
 ## Google drive sync
+
 ```
 go get -u github.com/odeke-em/drive/drive-google
 ```
 
 ## Encryption
+
 References:
 
 * https://wiki.archlinux.org/index.php/disk_encryption
@@ -67,6 +72,7 @@ References:
 * http://www.howtogeek.com/115955/how-to-quickly-encrypt-removable-storage-devices-with-ubuntu/
 
 ### ecryptfs
+
 [Reference: ecryptfs tutorial](http://bodhizazen.net/Tutorials/Ecryptfs)
 
 ```
@@ -97,6 +103,7 @@ bindsym Ctrl+Shift+2 exec --no-startup-id setxkbmap ar
 ```
 
 ## Printer
+
 [Reference 1](https://forums.kali.org/showthread.php?4314-Install-amp-configure-printers-on-Kali-linux)
 [Reference 2](https://uwnthesis.wordpress.com/2013/07/29/kali-how-to-install-a-cups-printer-the-visual-guide/)
 
@@ -109,9 +116,12 @@ sudo /etc/init.d/samba restart
 netstat -ant | grep 631
 ```
 
-Then open system setting printers and add network printer. After restart you'll need to start cups again; go to printers, choose socket, type printer ip, choose `HP LaserJet Pro P1102w Foomatic/foo2zjs-z2 (recommended) (grayscale, 2-sided printing)`
+Then open system setting printers and add network printer. After restart you'll need to start cups again; go to
+printers, choose socket, type printer ip,
+choose `HP LaserJet Pro P1102w Foomatic/foo2zjs-z2 (recommended) (grayscale, 2-sided printing)`
 
 ## Eclipse
+
 ```
 # put this in the eclipse.ini:
 --launcher.GTK_version
@@ -119,6 +129,7 @@ Then open system setting printers and add network printer. After restart you'll 
 ```
 
 ## Nodejs, NPM, Bower
+
 ```
 apt-get install curl
 curl -sL https://deb.nodesource.com/setup | bash -
@@ -128,7 +139,6 @@ su -
 curl -L --insecure https://www.npmjs.org/install.sh | bash
 npm install bower
 ```
-
 
 ## Virtualbox
 
@@ -147,6 +157,7 @@ vboxmanage extpack uninstall "Oracle VM VirtualBox Extension Pack"
 vboxmanage extpack install ...
 
 ```
+
 Some Good References:
 
 * http://www.jeremychapman.info/cms/get-usb-working-in-virtualbox-under-debian-and-ubuntu
@@ -159,6 +170,7 @@ Some Good References:
 * http://askubuntu.com/questions/147800/ripping-dvd-to-iso-accurately
 
 ## Debian as Guest
+
 https://forums.virtualbox.org/viewtopic.php?t=15868
 
 ```
@@ -170,7 +182,8 @@ Troubleshooting
 Q: I get a protocol error when mounting.
 Q: I get the error /sbin/mount.vboxsf: mounting failed with the error: No such device.
 A: You mount the SF on a mount point with the same name as the share itself, change the name or mount point.
-A: You're sharing a personal folder like your Home Folder (Linux), or My Documents (Windows) on the Host. Define a new share, like a sub folder.
+A: You're sharing a personal folder like your Home Folder (Linux), or My Documents (Windows) on the Host. Define a new
+share, like a sub folder.
 
 Q: I get an error "Unexpected error: Text file busy." when trying to edit a file.
 A: When using gedit, this can happen on shared folders. This is a bug in gedit, not VB. Use a different editor.

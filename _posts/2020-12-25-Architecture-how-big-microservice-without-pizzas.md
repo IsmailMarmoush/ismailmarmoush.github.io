@@ -1,15 +1,15 @@
 ---
-layout: post 
+layout: post
 title:  "How big a microservice should be without pizzas"
-author: ismailmarmoush 
-image: /assets/posts/Microservices.png 
-featured: false 
-hidden: false 
+author: ismailmarmoush
+image: /assets/posts/Microservices.png
+featured: false
+hidden: false
 tags: architecture
 ---
 
 > Note: This article discusses microservices as a whole, not on bounded context (DDD) level. Also note that how big/size
-are just layman terms, the real intention here is complexity. 
+> are just layman terms, the real intention here is complexity.
 
 Why care about microservice complexity ?
 
@@ -19,7 +19,7 @@ ending up with being another monolith, or even incidental architecture complexit
 
 There are many tools like [analysis tools](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
 and [techniques](https://blog.codacy.com/an-in-depth-explanation-of-code-complexity/) for tackling code
-complexity, yet most of us don't know when it's worth time and money to split a service or make critical changes.  
+complexity, yet most of us don't know when it's worth time and money to split a service or make critical changes.
 
 ## It's a Problem of measurement
 
@@ -58,7 +58,7 @@ microservice. All these are factors which contribute to the complexity of the se
 Since complexity in our case isn't a measurable quantity, we go back to the basics which are "business needs".
 
 The basic need here is how fast (in average) in reality people get to understand and be able to fully maintain and
-operate the service from zero knowledge, versus our expectations. That percentage is crucial.  
+operate the service from zero knowledge, versus our expectations. That percentage is crucial.
 
 ### 3.0 Measure it
 
@@ -69,7 +69,8 @@ Knowing the attribute from previous section (time to understand) we have a coupl
 
 1. Stakeholders expectation of new joiners understanding time Vs the actual average time on a random selected set
 1. Stakeholders expectation of other team members understanding time Vs the actual average time on a random selected set
-1. What's the expected [quorum](https://en.wikipedia.org/wiki/Quorum) of people maintaining such service according to its risk or impact, taking into
+1. What's the expected [quorum](https://en.wikipedia.org/wiki/Quorum) of people maintaining such service according to
+   its risk or impact, taking into
    consideration the [bus factor](https://en.wikipedia.org/wiki/Bus_factor) of course Vs how many are actually there.
 1. What's your turnover rate?
 

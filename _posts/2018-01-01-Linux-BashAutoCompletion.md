@@ -12,10 +12,12 @@ tags: linux
 
 ## Problem
 
-Since, I didn't want to use Make files and I have to use normal scripts, inside these Scripts ther eare usually many methods
+Since, I didn't want to use Make files and I have to use normal scripts, inside these Scripts ther eare usually many
+methods
 here is an example
 
 Assuming file name is `main.sh`
+
 ```
 #!/bin/bash
 hello(){
@@ -28,7 +30,6 @@ Normally in order to call the hello function you'd say `./main.sh  hello  blabla
 
 But this is super long and I have to open the file tons of times in order to get the right function name,
 and if it was a Make file it would've had auto completion for functions names etc.
-
 
 ## Solution
 
@@ -49,7 +50,7 @@ bye(){
 $@
 ```
 
-By adding the following code in .bashrc, any script file named  ./main.sh will call completion function:
+By adding the following code in .bashrc, any script file named ./main.sh will call completion function:
 
 ```
 completion(){
@@ -90,5 +91,6 @@ hello
 everyone all kool
 ```
 
-For Function completion you don't need anything , for arguments (examples) you only need to add comment starting with the prefix
+For Function completion you don't need anything , for arguments (examples) you only need to add comment starting with
+the prefix
 "Example:" , you can change the prefix to your liking.
