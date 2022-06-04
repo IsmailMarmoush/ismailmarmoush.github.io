@@ -7,6 +7,11 @@ featured: false
 hidden: false
 tags: sac
 
+# Rules
+
+* Move away from deprecated tools
+* If the tool has low support/maintenance should be already mature  
+* Always upgrade Java, spot tools that aren't upgradable
 
 ## CI/CD
 
