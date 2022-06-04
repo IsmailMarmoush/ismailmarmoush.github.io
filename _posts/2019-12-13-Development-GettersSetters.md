@@ -5,7 +5,7 @@ author: ismailmarmoush
 image: /assets/posts/java.jpg
 featured: false
 hidden: false
-tags: architecture
+tags: development
 ---
 
 This decision was pragmatic, many were skeptical and others said it’s a bold proposal, in my defense it came as a series
