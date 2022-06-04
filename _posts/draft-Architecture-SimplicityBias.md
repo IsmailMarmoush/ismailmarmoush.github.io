@@ -12,6 +12,11 @@ tags: sac
 * Move away from deprecated tools
 * If the tool has low support/maintenance should be already mature  
 * Always upgrade Java, spot tools that aren't upgradable
+* Technical decisions as close as much to affected code
+* Where features docs are placed:
+  * Technical: in same repo
+  * Product: either in a different repo for decoupling or a jira, or github issues etc
+* 
 
 ## CI/CD
 
