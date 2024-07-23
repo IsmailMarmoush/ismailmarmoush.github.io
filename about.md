@@ -15,8 +15,6 @@ My Technical interests:
 * Devops
 * Frontend as a hobby
 * I admire C and Go lang
-* I know some Scala, I like many concepts it has,
-but I don't like its complexities and the idiomatic mathematical pretentious culture around it.
 
 Want to know more, or connect ?
 
