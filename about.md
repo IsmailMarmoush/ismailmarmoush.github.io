@@ -1,10 +1,3 @@
----
-layout: page
-title: About
-comments: false
----
-
-
 My Technical interests:
 
 * Java
