@@ -8,7 +8,7 @@
         <div class="bg-white rounded-lg shadow-sm p-4 flex flex-col lg:flex-row items-center lg:items-start gap-6">
           <div class="flex-shrink-0">
             <div class="bg-center bg-no-repeat bg-cover rounded-full w-32 h-32 lg:w-36 lg:h-36"
-                 style="background-image:url('/src/assets/images/profile02.png');"></div>
+                 style="background-image:url('/images/profile02.png');"></div>
           </div>
           <div class="text-center lg:text-left">
             <h2 class="text-[#101418] lg:text-2xl font-extrabold mb-2">Welcome to my blog,</h2>
