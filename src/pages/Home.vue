@@ -4,7 +4,7 @@
       <!-- Banner Image -->
 
       <!-- Hero Section -->
-      <div class="mb-14">
+      <div class="mb-4">
         <div class="bg-white rounded-lg shadow-sm p-6 flex flex-col lg:flex-row items-center lg:items-start gap-6">
           <div class="flex-shrink-0">
             <div class="bg-center bg-no-repeat bg-cover rounded-full w-32 h-32 lg:w-36 lg:h-36"
@@ -14,25 +14,23 @@
           <div class="text-center lg:text-left">
             <h1 class="text-[#101418] text-4xl lg:text-3xl font-extrabold mb-2">Hi,</h1>
             <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
-              Welcome to my blog. My name is Ismail Marmoush, and I am a software engineer and consultant with over 12
-              years of experience, including more than 8 years working in Europe. I help companies scale, modernize, and
-              secure their technology platforms. My work spans high-traffic eCommerce systems, cloud-native
-              infrastructure, distributed architectures, and developer enablement.
+              Welcome to my blog. My name is Ismail Marmoush. I’m a software engineer and consultant with 12+ years of
+              experience, including 8+ years working in Europe.
+            </p>
+            <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
+              I help companies scale, modernize, and secure their platforms. My work includes high-traffic eCommerce
+              systems, cloud-native infrastructure, distributed systems, and developer enablement.
             </p>
             <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0">
-              Specializing in the JVM ecosystem, DevOps, and security-first design, I collaborate closely with
-              engineering
-              teams to deliver robust, maintainable solutions that balance speed with long-term sustainability.
-            </p>
-            <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0">
-              What drives me is the opportunity to simplify complexity, empower teams with better tools and
-              architecture,
-              and build technology that's resilient, robust and scalable.
+              I have strong experience in the JVM ecosystem and a keen interest in DevOps and security-first design. I
+              work closely with engineering teams to build robust, maintainable, and scalable solutions, and I enjoy
+              simplifying complexity and improving CI/CD pipelines and overall architecture.
             </p>
           </div>
         </div>
+
         <div class="flex justify-center">
-          <div class="flex flex-1 gap-4 flex-wrap px-4 py-3  justify-center">
+          <div class="flex flex-1 gap-4 flex-wrap px-6 py-10  justify-center">
             <a href="https://memoria.io/" target="_blank"
                class="flex items-center justify-center w-20 h-16 bg-white border border-gray-200 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg">
               <img src="/src/assets/images/memoria_logo.png" alt="Memoria Logo" class="w-16 h-12 object-contain"/>
@@ -263,5 +261,5 @@
 </template>
 
 <script setup lang="ts">
-// Add any logic or imports here if needed
+document.title = 'Ismail Marmoush';
 </script>

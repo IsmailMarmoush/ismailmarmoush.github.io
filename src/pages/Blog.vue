@@ -226,7 +226,7 @@ watch(currentArticle, (newArticle) => {
     ogTitle.setAttribute('property', 'og:title');
     document.head.appendChild(ogTitle);
   }
-  ogTitle.setAttribute('content', newArticle && newArticle.title ? newArticle.title : 'Memoria IO');
+  ogTitle.setAttribute('content', newArticle && newArticle.title ? newArticle.title : 'Ismail Marmoush');
 }, { immediate: true })
 </script>
 

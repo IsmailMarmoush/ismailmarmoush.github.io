@@ -12,7 +12,7 @@
         </div>
         <div class="flex items-center justify-center gap-6">
           <!-- LinkedIn -->
-          <a href="https://linkedin.com/company/m-io" 
+          <a href="https://linkedin.com/in/ismailmarmoush"
              target="_blank" 
              rel="noopener noreferrer"
              class="text-[#5c738a] hover:text-[#0077B5] transition-colors">
