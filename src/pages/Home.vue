@@ -5,27 +5,22 @@
 
       <!-- Hero Section -->
       <div class="mb-4">
-        <div class="bg-white rounded-lg shadow-sm p-6 flex flex-col lg:flex-row items-center lg:items-start gap-6">
+        <div class="bg-white rounded-lg shadow-sm p-4 flex flex-col lg:flex-row items-center lg:items-start gap-6">
           <div class="flex-shrink-0">
             <div class="bg-center bg-no-repeat bg-cover rounded-full w-32 h-32 lg:w-36 lg:h-36"
-                 style='background-image: url("/src/assets/images/profile02.png");'></div>
+                 style="background-image:url('/src/assets/images/profile02.png');"></div>
           </div>
-
           <div class="text-center lg:text-left">
-            <h1 class="text-[#101418] text-4xl lg:text-3xl font-extrabold mb-2">Hi,</h1>
-            <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
-              Welcome to my blog. My name is Ismail Marmoush. I’m a software engineer and consultant with 12+ years of
-              experience, including 8+ years working in Europe.
-            </p>
-            <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
-              I help companies scale, modernize, and secure their platforms. My work includes high-traffic eCommerce
-              systems, cloud-native infrastructure, distributed systems, and developer enablement.
-            </p>
-            <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0">
-              I have strong experience in the JVM ecosystem and a keen interest in DevOps and security-first design. I
-              work closely with engineering teams to build robust, maintainable, and scalable solutions, and I enjoy
-              simplifying complexity and improving CI/CD pipelines and overall architecture.
-            </p>
+            <h2 class="text-[#101418] lg:text-2xl font-extrabold mb-2">Welcome to my blog,</h2>
+            <p class="text-[#5c738a] mt-4 leading-relaxed">I’m a
+              software engineer and consultant with 12+ years of experience, including 8+ years in Europe.</p>
+            <p class="text-[#5c738a] mt-4 leading-relaxed">I help companies scale, modernize, and secure their
+              platforms. My work includes high-traffic eCommerce systems, cloud-native infrastructure, distributed
+              systems, and developer enablement.</p>
+            <p class="text-[#5c738a] mt-4">I have strong experience in the JVM ecosystem and a keen interest in DevOps
+              and security-first design. I work closely with engineering teams to build robust, maintainable, and
+              scalable solutions, and I enjoy simplifying complexity and improving CI/CD pipelines and overall
+              architecture.</p>
           </div>
         </div>
       </div>
@@ -230,7 +225,7 @@
       </div>
 
       <!--  Contact section    -->
-      <div class="mb-10">
+      <div class="mb-0">
         <h2 class="text-[#101418] text-2xl font-bold mb-4">Contact & Collaboration</h2>
         <div class="bg-white rounded-lg shadow-md p-6">
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
@@ -278,7 +273,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </template>
