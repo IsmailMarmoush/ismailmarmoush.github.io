@@ -4,23 +4,59 @@
       <!-- Banner Image -->
 
       <!-- Hero Section -->
-      <div class="mb-12 text-center">
-        <h1 class="text-[#101418] text-4xl font-bold mb-4">Hi,</h1>
-        <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
-             style='background-image: url("assets/images/profile02.png");'></div>
-        <p class="text-[#5c738a] text-lg max-w-2xl mx-auto">
-          I'm a software engineer and consultant with 12+ years of experience—8+ in Europe—helping companies scale,
-          modernize, and secure their technology platforms. My work spans high-traffic eCommerce systems, cloud-native
-          infrastructure, distributed architectures, and developer enablement.
-        </p>
-        <p class="text-[#5c738a] text-lg max-w-2xl mx-auto">
-          Specializing in the JVM ecosystem, DevOps, and security-first design, I collaborate closely with engineering
-          teams to deliver robust, maintainable solutions that balance speed with long-term sustainability.
-        </p>
-        <p class="text-[#5c738a] text-lg max-w-2xl mx-auto">
-          What drives me is the opportunity to simplify complexity, empower teams with better tools and architecture,
-          and build technology that's resilient, robust and scalable.
-        </p>
+      <div class="mb-14">
+        <div class="bg-white rounded-lg shadow-sm p-6 flex flex-col lg:flex-row items-center lg:items-start gap-6">
+          <div class="flex-shrink-0">
+            <div class="bg-center bg-no-repeat bg-cover rounded-full w-32 h-32 lg:w-36 lg:h-36"
+                 style='background-image: url("/src/assets/images/profile02.png");'></div>
+          </div>
+
+          <div class="text-center lg:text-left">
+            <h1 class="text-[#101418] text-4xl lg:text-3xl font-extrabold mb-2">Hi,</h1>
+            <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0 leading-relaxed">
+              Welcome to my blog. My name is Ismail Marmoush, and I am a software engineer and consultant with over 12
+              years of experience, including more than 8 years working in Europe. I help companies scale, modernize, and
+              secure their technology platforms. My work spans high-traffic eCommerce systems, cloud-native
+              infrastructure, distributed architectures, and developer enablement.
+            </p>
+            <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0">
+              Specializing in the JVM ecosystem, DevOps, and security-first design, I collaborate closely with
+              engineering
+              teams to deliver robust, maintainable solutions that balance speed with long-term sustainability.
+            </p>
+            <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0">
+              What drives me is the opportunity to simplify complexity, empower teams with better tools and
+              architecture,
+              and build technology that's resilient, robust and scalable.
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="flex flex-1 gap-4 flex-wrap px-4 py-3  justify-center">
+            <a href="https://memoria.io/" target="_blank"
+               class="flex items-center justify-center w-20 h-16 bg-white border border-gray-200 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg">
+              <img src="/src/assets/images/memoria_logo.png" alt="Memoria Logo" class="w-16 h-12 object-contain"/>
+            </a>
+            <a href="https://stackoverflow.com/users/263215/ismail-marmoush" target="_blank"
+               class="flex items-center justify-center bg-white rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg border border-gray-200 px-2 py-1">
+              <img src="https://stackoverflow.com/users/flair/263215.png?theme=clean" alt="Stack Overflow Profile"
+                   class="rounded" style="height:48px; width:auto; display:block;"/>
+            </a>
+            <a href="https://www.linkedin.com/in/ismailmarmoush" target="_blank"
+               class="flex items-center justify-center w-16 h-16 bg-[#0077b5] rounded-xl text-white transition-all duration-300 hover:bg-[#005885] hover:scale-110 hover:shadow-lg">
+              <svg class="w-12 h-12" viewBox="0 0 32 32" fill="none">
+                <path
+                    d="M12 12h4v2h.06c.56-1.06 1.92-2.18 3.95-2.18C24.92 11.82 26 13.1 26 16.08V24h-4v-6.22c0-1.48-.53-2.5-1.85-2.5-1.01 0-1.61.68-1.87 1.34-.1.23-.13.55-.13.87V24h-4V12zm-6 0h4v12H6V12zm2-6a2 2 0 110 4 2 2 0 010-4z"
+                    fill="white"/>
+              </svg>
+            </a>
+            <a href="https://github.com/ismailmarmoush" target="_blank"
+               class="flex items-center justify-center w-16 h-16 bg-[#fff] rounded-xl text-white transition-all duration-300  hover:scale-110 hover:shadow-lg">
+              <img src="/src/assets/images/github.png" alt="GitHub Logo" class="w-12 h-12 object-contain"/>
+            </a>
+          </div>
+
+        </div>
       </div>
 
       <!-- Main Content Grid -->

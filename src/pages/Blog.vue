@@ -214,9 +214,9 @@ watch(() => route.params.postId, async (newPostId) => {
 watch(currentArticle, (newArticle) => {
   // Update document title
   if (newArticle && newArticle.title) {
-    document.title = `${newArticle.title} – Memoria IO`;
+    document.title = `${newArticle.title} – Ismail Marmoush`;
   } else {
-    document.title = 'Memoria IO';
+    document.title = 'Ismail Marmoush';
   }
 
   // Update og:title meta tag

@@ -3,7 +3,7 @@
     <div class="flex w-full max-w-[1200px] items-center justify-between py-5">
       <div class="flex items-center gap-4 text-[#101418]">
         <a href="/">
-          <img src="/src/assets/images/logo.png" alt="Memoria IO Logo" class="h-6 w-auto">
+          <img src="/src/assets/images/logo.png" alt="Marmoush.com Logo" class="h-6 w-auto">
         </a>
       </div>
       <div class="flex flex-1 justify-end gap-8">
