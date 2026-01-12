@@ -30,150 +30,97 @@
             <h2 class="text-[#101418] text-2xl font-bold mb-4">Skills & Interests</h2>
             <div class="bg-white rounded-lg shadow-sm overflow-hidden">
               <div class="divide-y divide-gray-200">
+                <!-- Programming Languages -->
                 <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
                   <div class="flex-1">
                     <div class="flex items-center gap-3">
                       <span class="text-green-500 flex-shrink-0">●</span>
                       <span class="text-[#101418] font-medium">Programming Languages</span>
                     </div>
-                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">
-                      <span
-                          class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors cursor-default">Java</span>
-                      <span
-                          class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium hover:bg-purple-200 transition-colors cursor-default">Kotlin</span>
-                      <span
-                          class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium hover:bg-emerald-200 transition-colors cursor-default">Scala</span>
-                      <span
-                          class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium hover:bg-yellow-200 transition-colors cursor-default">JavaScript</span>
-                      <span
-                          class="px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium hover:bg-orange-200 transition-colors cursor-default">Rust</span>
-                      <span
-                          class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium hover:bg-yellow-200 transition-colors cursor-default">Python</span>
-                      <span
-                          class="px-4 py-2 bg-lime-100 text-lime-800 rounded-full text-sm font-medium hover:bg-lime-200 transition-colors cursor-default">TypeScript</span>
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a] flex flex-wrap gap-2">
+                      <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium cursor-default">Java</span>
+                      <span class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium cursor-default">Kotlin</span>
+                      <span class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium cursor-default">Scala</span>
+                      <span class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium cursor-default">JavaScript</span>
+                      <span class="px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium cursor-default">Rust</span>
+                      <span class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium cursor-default">Python</span>
+                      <span class="px-4 py-2 bg-lime-100 text-lime-800 rounded-full text-sm font-medium cursor-default">TypeScript</span>
                     </div>
                   </div>
                 </div>
 
-                <!-- Skills Keyword Cloud -->
-                <div class="flex justify-center mb-8">
-                  <div class="flex flex-wrap justify-center gap-3 max-w-2xl mx-auto">
+                <!-- Architecture & Paradigms -->
+                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3">
+                      <span class="text-blue-500 flex-shrink-0">●</span>
+                      <span class="text-[#101418] font-medium">Architecture & Paradigms</span>
+                    </div>
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a] flex flex-wrap gap-2">
+                      <span class="px-4 py-2 bg-stone-100 text-stone-800 rounded-full text-sm font-medium cursor-default">Hexagonal Architecture</span>
+                      <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium cursor-default">Event Sourcing</span>
+                      <span class="px-4 py-2 bg-zinc-100 text-zinc-800 rounded-full text-sm font-medium cursor-default">CQRS</span>
+                      <span class="px-4 py-2 bg-neutral-100 text-neutral-800 rounded-full text-sm font-medium cursor-default">DDD</span>
+                      <span class="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium cursor-default">Object-Oriented Programming</span>
+                      <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium cursor-default">Functional Programming</span>
+                      <span class="px-4 py-2 bg-cyan-100 text-cyan-800 rounded-full text-sm font-medium cursor-default">Reactive Programming</span>
+                      <span class="px-4 py-2 bg-slate-100 text-slate-800 rounded-full text-sm font-medium cursor-default">Event Driven Architecture</span>
+                      <span class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium cursor-default">System Design</span>
+                      <span class="px-4 py-2 bg-fuchsia-100 text-fuchsia-800 rounded-full text-sm font-medium cursor-default">Clean Code</span>
+                      <span class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium cursor-default">Refactoring</span>
+                      <span class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium cursor-default">Test-Driven Development</span>
+                    </div>
+                  </div>
+                </div>
 
-                    <!-- Architecture & Paradigms -->
-                    <span
-                        class="px-4 py-2 bg-stone-100 text-stone-800 rounded-full text-sm font-medium hover:bg-stone-200 transition-colors cursor-default">Hexagonal
-                  Architecture</span>
-                    <span
-                        class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors cursor-default">Event
-                  Sourcing</span>
-                    <span
-                        class="px-4 py-2 bg-zinc-100 text-zinc-800 rounded-full text-sm font-medium hover:bg-zinc-200 transition-colors cursor-default">CQRS</span>
-                    <span
-                        class="px-4 py-2 bg-neutral-100 text-neutral-800 rounded-full text-sm font-medium hover:bg-neutral-200 transition-colors cursor-default">DDD</span>
-                    <span
-                        class="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium hover:bg-green-200 transition-colors cursor-default">Object-Oriented
-                  Programming</span>
-                    <span
-                        class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors cursor-default">Functional
-                  Programming</span>
-                    <span
-                        class="px-4 py-2 bg-cyan-100 text-cyan-800 rounded-full text-sm font-medium hover:bg-cyan-200 transition-colors cursor-default">Reactive
-                  Programming</span>
-                    <span
-                        class="px-4 py-2 bg-slate-100 text-slate-800 rounded-full text-sm font-medium hover:bg-slate-200 transition-colors cursor-default">Event
-                  Driven Architecture</span>
-                    <span
-                        class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors cursor-default">Software
-                  Architecture</span>
-                    <span
-                        class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors cursor-default">Microservices</span>
-                    <span
-                        class="px-4 py-2 bg-fuchsia-100 text-fuchsia-800 rounded-full text-sm font-medium hover:bg-fuchsia-200 transition-colors cursor-default">Clean
-                  Code</span>
-                    <span
-                        class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium hover:bg-emerald-200 transition-colors cursor-default">Refactoring</span>
-                    <span
-                        class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors cursor-default">System
-                  Design</span>
-                    <span
-                        class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium hover:bg-purple-200 transition-colors cursor-default">Test-Driven
-                  Development</span>
+                <!-- Tech Stack & Tools -->
+                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3">
+                      <span class="text-yellow-500 flex-shrink-0">●</span>
+                      <span class="text-[#101418] font-medium">Tech Stack & Tools</span>
+                    </div>
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a] flex flex-wrap gap-2">
+                      <span class="px-4 py-2 bg-cyan-100 text-cyan-800 rounded-full text-sm font-medium cursor-default">Reactive Streams</span>
+                      <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium cursor-default">Project Reactor</span>
+                      <span class="px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-medium cursor-default">VAVR</span>
+                      <span class="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium cursor-default">Spring Framework</span>
+                      <span class="px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium cursor-default">Maven</span>
+                      <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium cursor-default">Gradle</span>
+                      <span class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium cursor-default">Oracle Helidon SE</span>
+                      <span class="px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-medium cursor-default">Flutter</span>
+                      <span class="px-4 py-2 bg-rose-100 text-rose-800 rounded-full text-sm font-medium cursor-default">Web Development</span>
+                      <span class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium cursor-default">12 Factor App</span>
+                      <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium cursor-default">Kafka</span>
+                      <span class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium cursor-default">Redis</span>
+                      <span class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium cursor-default">MySQL</span>
+                      <span class="px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium cursor-default">PostgreSQL</span>
+                    </div>
+                  </div>
+                </div>
 
-                    <!-- Tech Stack -->
-                    <span
-                        class="px-4 py-2 bg-cyan-100 text-cyan-800 rounded-full text-sm font-medium hover:bg-cyan-200 transition-colors cursor-default">Reactive
-                  Streams</span>
-                    <span
-                        class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors cursor-default">Project
-                  Reactor</span>
-                    <span
-                        class="px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-medium hover:bg-violet-200 transition-colors cursor-default">VAVR</span>
-                    <span
-                        class="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium hover:bg-green-200 transition-colors cursor-default">Spring
-                  Framework</span>
-                    <span
-                        class="px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium hover:bg-orange-200 transition-colors cursor-default">Maven</span>
-                    <span
-                        class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors cursor-default">Gradle</span>
-                    <span
-                        class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors cursor-default">Oracle
-                  Helidon SE</span>
-                    <span
-                        class="px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-medium hover:bg-amber-200 transition-colors cursor-default">Flutter</span>
-                    <span
-                        class="px-4 py-2 bg-rose-100 text-rose-800 rounded-full text-sm font-medium hover:bg-rose-200 transition-colors cursor-default">Web
-                  Development</span>
-                    <span
-                        class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium hover:bg-yellow-200 transition-colors cursor-default">Infrastructure</span>
-                    <span
-                        class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors cursor-default">12
-                  Factor App</span>
-                    <span
-                        class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors cursor-default">Kafka</span>
-                    <span
-                        class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium hover:bg-purple-200 transition-colors cursor-default">Redis</span>
-                    <span
-                        class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium hover:bg-emerald-200 transition-colors cursor-default">MySQL</span>
-                    <span
-                        class="px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium hover:bg-orange-200 transition-colors cursor-default">PostgreSQL</span>
-
-                    <!-- DevOps -->
-                    <span
-                        class="px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-medium hover:bg-violet-200 transition-colors cursor-default">Linux</span>
-                    <span
-                        class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors cursor-default">Bash</span>
-                    <span
-                        class="px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-medium hover:bg-violet-200 transition-colors cursor-default">Docker</span>
-                    <span
-                        class="px-4 py-2 bg-sky-100 text-sky-800 rounded-full text-sm font-medium hover:bg-sky-200 transition-colors cursor-default">Git</span>
-                    <span
-                        class="px-4 py-2 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors cursor-default">GitHub
-                  Actions</span>
-                    <span
-                        class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium hover:bg-red-200 transition-colors cursor-default">Ansible</span>
-                    <span
-                        class="px-4 py-2 bg-lime-100 text-lime-800 rounded-full text-sm font-medium hover:bg-lime-200 transition-colors cursor-default">AWS</span>
-                    <span
-                        class="px-4 py-2 bg-rose-100 text-rose-800 rounded-full text-sm font-medium hover:bg-rose-200 transition-colors cursor-default">Kubernetes</span>
-                    <span
-                        class="px-4 py-2 bg-pink-100 text-pink-800 rounded-full text-sm font-medium hover:bg-pink-200 transition-colors cursor-default">DevOps</span>
-                    <span
-                        class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium hover:bg-red-200 transition-colors cursor-default">CI/CD</span>
-                    <span
-                        class="px-4 py-2 bg-rose-100 text-rose-800 rounded-full text-sm font-medium hover:bg-rose-200 transition-colors cursor-default">Security</span>
-                    <span
-                        class="px-4 py-2 bg-sky-100 text-sky-800 rounded-full text-sm font-medium hover:bg-sky-200 transition-colors cursor-default">Cloud
-                  Solutions</span>
-                    <span
-                        class="px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-medium hover:bg-amber-200 transition-colors cursor-default">GCP</span>
-                    <span
-                        class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors cursor-default">Debian</span>
-                    <span
-                        class="px-4 py-2 bg-cyan-100 text-cyan-800 rounded-full text-sm font-medium hover:bg-cyan-200 transition-colors cursor-default">Agile</span>
-                    <span
-                        class="px-4 py-2 bg-pink-100 text-pink-800 rounded-full text-sm font-medium hover:bg-pink-200 transition-colors cursor-default">Scrum</span>
-                    <span
-                        class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium hover:bg-red-200 transition-colors cursor-default">Kanban</span>
+                <!-- DevOps & Cloud -->
+                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3">
+                      <span class="text-pink-500 flex-shrink-0">●</span>
+                      <span class="text-[#101418] font-medium">DevOps & Cloud</span>
+                    </div>
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a] flex flex-wrap gap-2">
+                      <span class="px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-medium cursor-default">Linux</span>
+                      <span class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium cursor-default">Bash</span>
+                      <span class="px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-medium cursor-default">Docker</span>
+                      <span class="px-4 py-2 bg-sky-100 text-sky-800 rounded-full text-sm font-medium cursor-default">Git</span>
+                      <span class="px-4 py-2 bg-gray-100 text-gray-800 rounded-full text-sm font-medium cursor-default">GitHub Actions</span>
+                      <span class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium cursor-default">Ansible</span>
+                      <span class="px-4 py-2 bg-lime-100 text-lime-800 rounded-full text-sm font-medium cursor-default">AWS</span>
+                      <span class="px-4 py-2 bg-rose-100 text-rose-800 rounded-full text-sm font-medium cursor-default">Kubernetes</span>
+                      <span class="px-4 py-2 bg-pink-100 text-pink-800 rounded-full text-sm font-medium cursor-default">CI/CD</span>
+                      <span class="px-4 py-2 bg-rose-100 text-rose-800 rounded-full text-sm font-medium cursor-default">Security</span>
+                      <span class="px-4 py-2 bg-sky-100 text-sky-800 rounded-full text-sm font-medium cursor-default">Cloud Solutions</span>
+                      <span class="px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-medium cursor-default">GCP</span>
+                      <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium cursor-default">Debian</span>
+                    </div>
                   </div>
                 </div>
               </div>
