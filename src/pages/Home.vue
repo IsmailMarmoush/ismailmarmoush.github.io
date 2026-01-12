@@ -229,10 +229,8 @@
 
       <!--  Contact section    -->
       <div class="mb-4">
+        <h2 class="text-[#101418] text-2xl font-bold mb-4">Contact me</h2>
         <div class="bg-white rounded-lg shadow-sm p-6 flex flex-col lg:flex-row items-center lg:items-start gap-6">
-          <div class="flex-shrink-0">
-            <div class="bg-center bg-no-repeat bg-cover rounded-full w-32 h-32 lg:w-36 lg:h-36"> Contact</div>
-          </div>
           <div class="flex justify-center">
             <div class="flex flex-1 gap-4 flex-wrap px-6 py-10  justify-center">
               <a href="https://memoria.io/" target="_blank"
