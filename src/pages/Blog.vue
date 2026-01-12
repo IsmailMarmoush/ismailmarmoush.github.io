@@ -1,36 +1,10 @@
 <template>
-  <div class="px-40 flex flex-1 justify-center py-5">
-    <div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
-      <div class="relative flex gap-24">
-        <!-- Left Sidebar with TOC -->
-        <aside class="w-70 absolute">
-          <div class="fixed w-64 pt-32">
-            <!-- Blog List -->
-            <div class="mb-6">
-              <h3 class="text-sm font-medium text-[#5c738a] uppercase tracking-wider mb-3">Blog Posts</h3>
-              <div v-if="groupedBlogPosts" class="space-y-4">
-                <div v-for="yearGroup in groupedBlogPosts" :key="yearGroup.year" class="space-y-2">
-                  <h4 class="text-xs font-semibold text-[#3f7fbf] uppercase tracking-wider">{{ yearGroup.year }}</h4>
-                  <ul class="space-y-1 ml-2">
-                    <li v-for="entry in yearGroup.posts" :key="entry.filePath">
-                      <a 
-                        href="#" 
-                        @click.prevent="loadBlogPost(entry)"
-                        :class="[
-                          'block text-sm py-1 hover:text-[#3f7fbf] transition-colors',
-                          currentArticle?.filePath === entry.filePath 
-                            ? 'text-[#3f7fbf] font-medium' 
-                            : 'text-[#101418]'
-                        ]"
-                      >
-                        {{ entry.title }}
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
+  <div class="px-10 flex flex-1 justify-center py-10">
+    <div class="layout-content-container flex flex-col max-w-[1400px] flex-1">
+      <div class="relative flex gap-6">
+        <!-- Left Sidebar: Table of Contents (fixed on large screens) -->
+        <aside class="hidden lg:block lg:w-64 lg:absolute lg:left-0">
+          <div class="lg:fixed lg:w-56 lg:pt-32">
             <!-- Table of Contents -->
             <TableOfContents
               :content-ref="contentDiv"
@@ -41,10 +15,10 @@
           </div>
         </aside>
 
-        <!-- Main Content -->
-        <div class="flex-1 ml-80">
+        <!-- Main Content (wider) -->
+        <div class="flex-1 min-w-0 w-full lg:ml-64 lg:mr-6">
           <div v-if="error" class="text-red-500">{{ error }}</div>
-          <div v-else class="prose dark:prose-invert max-w-none">
+          <div v-else class="prose dark:prose-invert max-w-none w-full">
             <!-- Blog Post Header -->
             <div v-if="currentArticle" class="mb-8 pb-6 border-b border-gray-200">
               <h1 class="text-3xl font-bold text-[#101418] mb-3">{{ currentArticle.title }}</h1>
@@ -76,6 +50,37 @@
             />
           </div>
         </div>
+
+        <!-- Right Sidebar with Blog List (sticky on large screens; hidden on small) -->
+        <aside class="hidden lg:block lg:w-64">
+          <div class="lg:sticky lg:top-32">
+            <!-- Blog List -->
+            <div class="mb-6">
+              <h3 class="text-sm font-medium text-[#5c738a] uppercase tracking-wider mb-3">Blog Posts</h3>
+              <div v-if="groupedBlogPosts" class="space-y-4">
+                <div v-for="yearGroup in groupedBlogPosts" :key="yearGroup.year" class="space-y-2">
+                  <h4 class="text-xs font-semibold text-[#3f7fbf] uppercase tracking-wider">{{ yearGroup.year }}</h4>
+                  <ul class="space-y-1 ml-2">
+                    <li v-for="entry in yearGroup.posts" :key="entry.filePath">
+                      <a
+                        href="#"
+                        @click.prevent="loadBlogPost(entry)"
+                        :class="[
+                          'block text-sm py-1 hover:text-[#3f7fbf] transition-colors',
+                          currentArticle?.filePath === entry.filePath
+                            ? 'text-[#3f7fbf] font-medium'
+                            : 'text-[#101418]'
+                        ]"
+                      >
+                        {{ entry.title }}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
       </div>
     </div>
   </div>
@@ -244,4 +249,4 @@ watch(currentArticle, (newArticle) => {
 .prose img {
   border-radius: 0.5rem;
 }
-</style> 
+</style>
