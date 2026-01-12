@@ -255,7 +255,7 @@
                     <path
                         d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM8.5 8h3.84v2.18h.05c.54-1.02 1.86-2.09 3.84-2.09 4.11 0 4.87 2.71 4.87 6.24V24h-4v-7.3c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.9-2.79 3.86V24h-4V8z"/>
                   </svg>
-                  <span>LinkedIn — Connect</span>
+                  <span>LinkedIn</span>
                 </a>
 
                 <a href="https://github.com/ismailmarmoush" target="_blank" rel="noopener noreferrer"
@@ -265,13 +265,13 @@
                           d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.38 7.86 10.9.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.36-1.3-1.72-1.3-1.72-1.06-.72.08-.7.08-.7 1.18.08 1.8 1.21 1.8 1.21 1.04 1.78 2.73 1.26 3.4.96.11-.75.41-1.26.75-1.55-2.56-.29-5.26-1.28-5.26-5.72 0-1.26.45-2.29 1.2-3.1-.12-.29-.52-1.45.11-3.02 0 0 .98-.31 3.2 1.18a11.15 11.15 0 012.92-.39c.99 0 1.99.13 2.92.39 2.22-1.5 3.2-1.18 3.2-1.18.63 1.57.23 2.73.11 3.02.74.81 1.2 1.84 1.2 3.1 0 4.45-2.71 5.42-5.29 5.71.42.36.8 1.07.8 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.2.67.8.56A11.52 11.52 0 0023.5 12C23.5 5.65 18.35.5 12 .5z"
                           clip-rule="evenodd"/>
                   </svg>
-                  <span>GitHub — Code & Repos</span>
+                  <span>GitHub</span>
                 </a>
                 <a href="https://stackoverflow.com/users/263215/ismail-marmoush" target="_blank"
                    rel="noopener noreferrer"
                    class="flex items-center justify-center gap-3 bg-white border border-gray-200 rounded-lg px-4 py-3 text-[#111827] font-semibold hover:shadow-lg transition">
                   <img src="https://stackoverflow.com/users/flair/263215.png?theme=clean" alt="Stack Overflow Profile"
-                       class="rounded" style="height:56px; width:auto; display:block;"/>
+                       class="rounded" style="height:66px; width:auto; display:block;"/>
                 </a>
               </div>
             </div>
