@@ -2,16 +2,22 @@
   <div class="px-40 flex flex-1 justify-center py-5">
     <div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
       <!-- Banner Image -->
-      <div class="w-full mb-12">
-        <img src="/src/assets/images/memoria_banner.png" alt="Memoria Banner"
-          class="w-full h-auto rounded-lg shadow-md">
-      </div>
 
       <!-- Hero Section -->
       <div class="mb-12 text-center">
-        <h1 class="text-[#101418] text-4xl font-bold mb-4">Cloud-Native by Design</h1>
+        <h1 class="text-[#101418] text-4xl font-bold mb-4">Hi,</h1>
         <p class="text-[#5c738a] text-lg max-w-2xl mx-auto">
-          We help you deliver better software—faster—through scalable, secure architecture and built-in observability
+          I'm a software engineer and consultant with 12+ years of experience—8+ in Europe—helping companies scale,
+          modernize, and secure their technology platforms. My work spans high-traffic eCommerce systems, cloud-native
+          infrastructure, distributed architectures, and developer enablement.
+        </p>
+        <p class="text-[#5c738a] text-lg max-w-2xl mx-auto">
+          Specializing in the JVM ecosystem, DevOps, and security-first design, I collaborate closely with engineering
+          teams to deliver robust, maintainable solutions that balance speed with long-term sustainability.
+        </p>
+        <p class="text-[#5c738a] text-lg max-w-2xl mx-auto">
+          What drives me is the opportunity to simplify complexity, empower teams with better tools and architecture,
+          and build technology that's resilient, robust and scalable.
         </p>
       </div>
 
@@ -20,86 +26,154 @@
         <!-- Left Column -->
         <div class="space-y-8">
           <section>
-            <h2 class="text-[#101418] text-2xl font-bold mb-4">Our Core Consulting Services</h2>
+
+            <h2 class="text-[#101418] text-2xl font-bold mb-4">Skills & Interests</h2>
             <div class="bg-white rounded-lg shadow-sm overflow-hidden">
               <div class="divide-y divide-gray-200">
-                <div class="p-4 hover:bg-gray-50 transition-colors">
-                  <div class="flex items-start">
-                    <div class="bg-[#3f7fbf] bg-opacity-10 p-3 rounded-lg mr-4">
-                      <svg class="w-6 h-6 text-[#3f7fbf]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                      </svg>
+                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3">
+                      <span class="text-green-500 flex-shrink-0">●</span>
+                      <span class="text-[#101418] font-medium">Programming Languages</span>
                     </div>
-                    <div class="flex-1">
-                      <h3 class="text-[#101418] font-medium mb-1">Software Development</h3>
-                      <p class="text-sm text-[#5c738a]">Custom cloud-native applications, microservices architecture,
-                        and API development</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="p-4 hover:bg-gray-50 transition-colors">
-                  <div class="flex items-start">
-                    <div class="bg-[#3f7fbf] bg-opacity-10 p-3 rounded-lg mr-4">
-                      <svg class="w-6 h-6 text-[#3f7fbf]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                      </svg>
-                    </div>
-                    <div class="flex-1">
-                      <h3 class="text-[#101418] font-medium mb-1">Data Analytics</h3>
-                      <p class="text-sm text-[#5c738a]">Big data processing, real-time analytics, and business
-                        intelligence solutions</p>
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">
+                      <span
+                          class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors cursor-default">Java</span>
+                      <span
+                          class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium hover:bg-purple-200 transition-colors cursor-default">Kotlin</span>
+                      <span
+                          class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium hover:bg-emerald-200 transition-colors cursor-default">Scala</span>
+                      <span
+                          class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium hover:bg-yellow-200 transition-colors cursor-default">JavaScript</span>
+                      <span
+                          class="px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium hover:bg-orange-200 transition-colors cursor-default">Rust</span>
+                      <span
+                          class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium hover:bg-yellow-200 transition-colors cursor-default">Python</span>
+                      <span
+                          class="px-4 py-2 bg-lime-100 text-lime-800 rounded-full text-sm font-medium hover:bg-lime-200 transition-colors cursor-default">TypeScript</span>
                     </div>
                   </div>
                 </div>
 
-                <div class="p-4 hover:bg-gray-50 transition-colors">
-                  <div class="flex items-start">
-                    <div class="bg-[#3f7fbf] bg-opacity-10 p-3 rounded-lg mr-4">
-                      <svg class="w-6 h-6 text-[#3f7fbf]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                      </svg>
-                    </div>
-                    <div class="flex-1">
-                      <h3 class="text-[#101418] font-medium mb-1">IT Strategy</h3>
-                      <p class="text-sm text-[#5c738a]">Digital transformation roadmaps, technology assessment, and
-                        modernization planning</p>
-                    </div>
-                  </div>
-                </div>
+                <!-- Skills Keyword Cloud -->
+                <div class="flex justify-center mb-8">
+                  <div class="flex flex-wrap justify-center gap-3 max-w-2xl mx-auto">
 
-                <div class="p-4 hover:bg-gray-50 transition-colors">
-                  <div class="flex items-start">
-                    <div class="bg-[#3f7fbf] bg-opacity-10 p-3 rounded-lg mr-4">
-                      <svg class="w-6 h-6 text-[#3f7fbf]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-                      </svg>
-                    </div>
-                    <div class="flex-1">
-                      <h3 class="text-[#101418] font-medium mb-1">Cloud Services</h3>
-                      <p class="text-sm text-[#5c738a]">Cloud migration, infrastructure automation, and DevOps
-                        implementation</p>
-                    </div>
-                  </div>
-                </div>
+                    <!-- Architecture & Paradigms -->
+                    <span
+                        class="px-4 py-2 bg-stone-100 text-stone-800 rounded-full text-sm font-medium hover:bg-stone-200 transition-colors cursor-default">Hexagonal
+                  Architecture</span>
+                    <span
+                        class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors cursor-default">Event
+                  Sourcing</span>
+                    <span
+                        class="px-4 py-2 bg-zinc-100 text-zinc-800 rounded-full text-sm font-medium hover:bg-zinc-200 transition-colors cursor-default">CQRS</span>
+                    <span
+                        class="px-4 py-2 bg-neutral-100 text-neutral-800 rounded-full text-sm font-medium hover:bg-neutral-200 transition-colors cursor-default">DDD</span>
+                    <span
+                        class="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium hover:bg-green-200 transition-colors cursor-default">Object-Oriented
+                  Programming</span>
+                    <span
+                        class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors cursor-default">Functional
+                  Programming</span>
+                    <span
+                        class="px-4 py-2 bg-cyan-100 text-cyan-800 rounded-full text-sm font-medium hover:bg-cyan-200 transition-colors cursor-default">Reactive
+                  Programming</span>
+                    <span
+                        class="px-4 py-2 bg-slate-100 text-slate-800 rounded-full text-sm font-medium hover:bg-slate-200 transition-colors cursor-default">Event
+                  Driven Architecture</span>
+                    <span
+                        class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors cursor-default">Software
+                  Architecture</span>
+                    <span
+                        class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors cursor-default">Microservices</span>
+                    <span
+                        class="px-4 py-2 bg-fuchsia-100 text-fuchsia-800 rounded-full text-sm font-medium hover:bg-fuchsia-200 transition-colors cursor-default">Clean
+                  Code</span>
+                    <span
+                        class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium hover:bg-emerald-200 transition-colors cursor-default">Refactoring</span>
+                    <span
+                        class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors cursor-default">System
+                  Design</span>
+                    <span
+                        class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium hover:bg-purple-200 transition-colors cursor-default">Test-Driven
+                  Development</span>
 
-                <div class="p-4 hover:bg-gray-50 transition-colors">
-                  <div class="flex items-start">
-                    <div class="bg-[#3f7fbf] bg-opacity-10 p-3 rounded-lg mr-4">
-                      <svg class="w-6 h-6 text-[#3f7fbf]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                      </svg>
-                    </div>
-                    <div class="flex-1">
-                      <h3 class="text-[#101418] font-medium mb-1">Cybersecurity and Compliance</h3>
-                      <p class="text-sm text-[#5c738a]">Security assessments, compliance frameworks, and threat
-                        protection solutions</p>
-                    </div>
+                    <!-- Tech Stack -->
+                    <span
+                        class="px-4 py-2 bg-cyan-100 text-cyan-800 rounded-full text-sm font-medium hover:bg-cyan-200 transition-colors cursor-default">Reactive
+                  Streams</span>
+                    <span
+                        class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors cursor-default">Project
+                  Reactor</span>
+                    <span
+                        class="px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-medium hover:bg-violet-200 transition-colors cursor-default">VAVR</span>
+                    <span
+                        class="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium hover:bg-green-200 transition-colors cursor-default">Spring
+                  Framework</span>
+                    <span
+                        class="px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium hover:bg-orange-200 transition-colors cursor-default">Maven</span>
+                    <span
+                        class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors cursor-default">Gradle</span>
+                    <span
+                        class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors cursor-default">Oracle
+                  Helidon SE</span>
+                    <span
+                        class="px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-medium hover:bg-amber-200 transition-colors cursor-default">Flutter</span>
+                    <span
+                        class="px-4 py-2 bg-rose-100 text-rose-800 rounded-full text-sm font-medium hover:bg-rose-200 transition-colors cursor-default">Web
+                  Development</span>
+                    <span
+                        class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium hover:bg-yellow-200 transition-colors cursor-default">Infrastructure</span>
+                    <span
+                        class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors cursor-default">12
+                  Factor App</span>
+                    <span
+                        class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors cursor-default">Kafka</span>
+                    <span
+                        class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium hover:bg-purple-200 transition-colors cursor-default">Redis</span>
+                    <span
+                        class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium hover:bg-emerald-200 transition-colors cursor-default">MySQL</span>
+                    <span
+                        class="px-4 py-2 bg-orange-100 text-orange-800 rounded-full text-sm font-medium hover:bg-orange-200 transition-colors cursor-default">PostgreSQL</span>
+
+                    <!-- DevOps -->
+                    <span
+                        class="px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-medium hover:bg-violet-200 transition-colors cursor-default">Linux</span>
+                    <span
+                        class="px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors cursor-default">Bash</span>
+                    <span
+                        class="px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-medium hover:bg-violet-200 transition-colors cursor-default">Docker</span>
+                    <span
+                        class="px-4 py-2 bg-sky-100 text-sky-800 rounded-full text-sm font-medium hover:bg-sky-200 transition-colors cursor-default">Git</span>
+                    <span
+                        class="px-4 py-2 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors cursor-default">GitHub
+                  Actions</span>
+                    <span
+                        class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium hover:bg-red-200 transition-colors cursor-default">Ansible</span>
+                    <span
+                        class="px-4 py-2 bg-lime-100 text-lime-800 rounded-full text-sm font-medium hover:bg-lime-200 transition-colors cursor-default">AWS</span>
+                    <span
+                        class="px-4 py-2 bg-rose-100 text-rose-800 rounded-full text-sm font-medium hover:bg-rose-200 transition-colors cursor-default">Kubernetes</span>
+                    <span
+                        class="px-4 py-2 bg-pink-100 text-pink-800 rounded-full text-sm font-medium hover:bg-pink-200 transition-colors cursor-default">DevOps</span>
+                    <span
+                        class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium hover:bg-red-200 transition-colors cursor-default">CI/CD</span>
+                    <span
+                        class="px-4 py-2 bg-rose-100 text-rose-800 rounded-full text-sm font-medium hover:bg-rose-200 transition-colors cursor-default">Security</span>
+                    <span
+                        class="px-4 py-2 bg-sky-100 text-sky-800 rounded-full text-sm font-medium hover:bg-sky-200 transition-colors cursor-default">Cloud
+                  Solutions</span>
+                    <span
+                        class="px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-medium hover:bg-amber-200 transition-colors cursor-default">GCP</span>
+                    <span
+                        class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors cursor-default">Debian</span>
+                    <span
+                        class="px-4 py-2 bg-cyan-100 text-cyan-800 rounded-full text-sm font-medium hover:bg-cyan-200 transition-colors cursor-default">Agile</span>
+                    <span
+                        class="px-4 py-2 bg-pink-100 text-pink-800 rounded-full text-sm font-medium hover:bg-pink-200 transition-colors cursor-default">Scrum</span>
+                    <span
+                        class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium hover:bg-red-200 transition-colors cursor-default">Kanban</span>
                   </div>
                 </div>
               </div>
@@ -112,7 +186,7 @@
         <!-- Right Column -->
         <div class="space-y-8">
           <section>
-            <h2 class="text-[#101418] text-2xl font-bold mb-4">What We're Building</h2>
+            <h2 class="text-[#101418] text-2xl font-bold mb-4">What I'm Building</h2>
             <div class="bg-white rounded-lg shadow-sm overflow-hidden">
               <div class="divide-y divide-gray-200">
                 <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
@@ -121,12 +195,13 @@
                       <span class="text-green-500 flex-shrink-0">●</span>
                       <span class="text-[#101418] font-medium">Project Helium</span>
                     </div>
-                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">Cloud-native Java microservice foundation with AI support.
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">Cloud-native Java microservice foundation with AI
+                      support.
                       <a href="/#/products#helium" target="_blank" rel="noopener noreferrer"
-                        class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
+                         class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
                         <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                         </svg>
                       </a>
                     </div>
@@ -142,12 +217,13 @@
                       <span class="text-yellow-500 flex-shrink-0">●</span>
                       <span class="text-[#101418] font-medium">Project Argon</span>
                     </div>
-                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">Composable infrastructure stack for distributed systems
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">Composable infrastructure stack for distributed
+                      systems
                       <a href="/#/products#argon" target="_blank" rel="noopener noreferrer"
-                        class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
+                         class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
                         <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                         </svg>
                       </a>
                     </div>
@@ -179,10 +255,10 @@
                     <div class="ml-6 mt-1 text-sm text-[#5c738a] flex items-center">
                       Available on GitHub
                       <a href="https://github.com/memoria-io" target="_blank" rel="noopener noreferrer"
-                        class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
+                         class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
                         <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                         </svg>
                       </a>
                     </div>
@@ -197,70 +273,6 @@
         </div>
       </div>
 
-      <!-- Clients Section -->
-      <section class="mb-12 bg-white rounded-lg p-8 shadow-sm">
-        <h2 class="text-[#101418] text-2xl font-bold mb-8 text-center">Clients We Serve</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="flex items-center p-6 rounded-lg bg-[#3f7fbf] bg-opacity-5 hover:bg-opacity-10 transition-colors">
-            <div class="bg-[#3f7fbf] bg-opacity-10 p-3 rounded-full mr-4">
-              <svg class="w-6 h-6 text-[#3f7fbf]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-            <div>
-              <h3 class="text-[#101418] font-medium">Tech-Driven Startups</h3>
-              <p class="text-sm text-[#5c738a] mt-1">Launching new products or platforms, looking for high-performance
-                backend foundations and fast delivery without heavyweight frameworks.</p>
-            </div>
-          </div>
-
-          <div class="flex items-center p-6 rounded-lg bg-[#3f7fbf] bg-opacity-5 hover:bg-opacity-10 transition-colors">
-            <div class="bg-[#3f7fbf] bg-opacity-10 p-3 rounded-full mr-4">
-              <svg class="w-6 h-6 text-[#3f7fbf]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-              </svg>
-            </div>
-            <div>
-              <h3 class="text-[#101418] font-medium">Growing Engineering Teams</h3>
-              <p class="text-sm text-[#5c738a] mt-1">Mid-sized companies scaling services or migrating from legacy
-                stacks, needing solid architecture, observability, and infrastructure automation.</p>
-            </div>
-          </div>
-
-          <div class="flex items-center p-6 rounded-lg bg-[#3f7fbf] bg-opacity-5 hover:bg-opacity-10 transition-colors">
-            <div class="bg-[#3f7fbf] bg-opacity-10 p-3 rounded-full mr-4">
-              <svg class="w-6 h-6 text-[#3f7fbf]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-              </svg>
-            </div>
-            <div>
-              <h3 class="text-[#101418] font-medium">Platform Engineering Teams</h3>
-              <p class="text-sm text-[#5c738a] mt-1">Standardizing infrastructure and deployment practices across
-                services, with a focus on consistency, scalability, and modern tooling like Kubernetes and GitOps.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Get Started Section -->
-      <section class="bg-[#3f7fbf] bg-opacity-5 rounded-lg p-8 text-center">
-        <h2 class="text-[#101418] text-2xl font-bold mb-4">Ready to Get Started?</h2>
-        <p class="text-[#5c738a] text-lg mb-6 max-w-2xl mx-auto">
-          Learn more about our products and services or get in touch with our team to discuss your needs.
-        </p>
-        <div class="flex justify-center gap-4">
-          <router-link to="/products"
-            class="inline-flex items-center px-6 py-3 bg-[#3f7fbf] text-white rounded-lg hover:bg-[#2d5d8f] transition-colors">
-            View Products
-          </router-link>
-          <router-link to="/contact"
-            class="inline-flex items-center px-6 py-3 border-2 border-[#3f7fbf] text-[#3f7fbf] rounded-lg hover:bg-[#3f7fbf] hover:text-white transition-colors">
-            Contact Us
-          </router-link>
-        </div>
-      </section>
     </div>
   </div>
 </template>
