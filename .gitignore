@@ -1,5 +1,6 @@
 .idea
 
+
 _site
 
 # Windows image file caches
@@ -63,3 +64,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.vite
