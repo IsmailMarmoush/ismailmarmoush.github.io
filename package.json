@@ -1,0 +1,54 @@
+{
+  "name": "ismailmarmoush-io.github.io",
+  "version": "1.0.0",
+  "description": "Marmoush default website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailmarmoush/ismailmarmoush.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismailmarmoush/ismailmarmoush.github.io/issues"
+  },
+  "homepage": "https://github.com/ismailmarmoush/ismailmarmoush.github.io#readme",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/he": "^1.2.3",
+    "@types/node": "^22.15.21",
+    "@types/prismjs": "^1.26.5",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@volar/vue-language-server": "^0.40.13",
+    "@vue/language-server": "^2.2.10",
+    "@vue/runtime-core": "^3.5.14",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.1",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@giscus/vue": "^3.1.1",
+    "he": "^1.2.0",
+    "marked": "^15.0.11",
+    "pinia": "^3.0.2",
+    "prismjs": "^1.30.0",
+    "typescript": "^5.8.3",
+    "vue": "^3.5.14",
+    "vue-router": "^4.5.1"
+  },
+  "type": "module"
+}

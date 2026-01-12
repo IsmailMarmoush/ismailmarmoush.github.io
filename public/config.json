@@ -1,0 +1,169 @@
+{
+  "products": [
+    {
+      "filePath": "products/helium.md",
+      "title": "Project Helium",
+      "lastUpdated": "2025-01-01"
+    },
+    {
+      "filePath": "products/argon.md",
+      "title": "Project Argon",
+      "lastUpdated": "2025-01-02"
+    }
+  ],
+  "blogPosts": [
+    {
+      "filePath": "blog/2016-01-01-eclipse-papyrus-java-to-uml.md",
+      "title": "Eclipse Papyrus Java to UML",
+      "lastUpdated": "2016-01-01"
+    },
+    {
+      "filePath": "blog/2018-01-01-bash-autocompletion.md",
+      "title": "Bash Autocompletion",
+      "lastUpdated": "2018-01-01"
+    },
+    {
+      "filePath": "blog/2018-04-21-interview-blunders.md",
+      "title": "Learn You Some of My Interview Blunders",
+      "lastUpdated": "2018-04-21"
+    },
+    {
+      "filePath": "blog/2018-12-24-good-architecture-design.md",
+      "title": "Good Architecture Design",
+      "lastUpdated": "2018-12-24"
+    },
+    {
+      "filePath": "blog/2019-04-01-orphaned-projects.md",
+      "title": "Orphaned projects",
+      "lastUpdated": "2019-04-01"
+    },
+    {
+      "filePath": "blog/2019-06-27-best-keyboard-for-programming.md",
+      "title": "Best keyboard for programming",
+      "lastUpdated": "2019-06-27"
+    },
+    {
+      "filePath": "blog/2019-11-12-reactive-functional-error-handling.md",
+      "title": "Reactive functional error handling",
+      "lastUpdated": "2019-11-12"
+    },
+    {
+      "filePath": "blog/2019-12-13-dropping-getters-setters.md",
+      "title": "Dropping getters and setters",
+      "lastUpdated": "2019-12-13"
+    },
+    {
+      "filePath": "blog/2020-12-25-microservice-sizing-without-pizza.md",
+      "title": "How big a microservice should be without pizzas",
+      "lastUpdated": "2020-12-25"
+    },
+    {
+      "filePath": "blog/2025-06-25-notice.md",
+      "title": "Notice",
+      "lastUpdated": "2025-06-25"
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "tamias",
+      "filePath": "case-studies/tamias.md",
+      "logo": "/images/logos/tamias.png",
+      "title": "Tamias: Cloud Transformation Journey",
+      "technologies": [
+        "Java",
+        "Swing",
+        "Netbeans",
+        "Hibernate",
+        "JPA",
+        "MySQL"
+      ],
+      "excerpt": "Modernizing a legacy POS deployed at FIFA 2022 by designing a scalable cloud-native backend and aligning business and engineering across multiple teams."
+    },
+    {
+      "id": "jobandtalent",
+      "filePath": "case-studies/jobandtalent.md",
+      "logo": "/images/logos/jobandtalent.png",
+      "title": "Jobandtalent: Architecture and Technology Migration",
+      "technologies": [
+        "Kotlin",
+        "Ruby",
+        "Spring",
+        "JPA",
+        "PostgreSQL",
+        "Gradle",
+        "Kubernetes",
+        "Kafka",
+        "Redis",
+        "AWS"
+      ],
+      "excerpt": "Company-wide Kotlin service template enabling streamlined Ruby-to-JVM migration. CI/CD optimization "
+    },
+    {
+      "id": "glovo",
+      "filePath": "case-studies/glovo.md",
+      "logo": "/images/logos/glovo.svg",
+      "title": "Glovo: Monolith to Microservices Transformation",
+      "technologies": [
+        "Java",
+        "Spring",
+        "Play Framework",
+        "AWS",
+        "Kubernetes",
+        "Redis"
+      ],
+      "excerpt": "Deep threads debugging. Definition and implementation of the extraction of the homepage backend from a monolith into a standalone microservice, optimizing legacy logic and reducing infrastructure costs."
+    },
+    {
+      "id": "zalando",
+      "filePath": "case-studies/zalando.md",
+      "logo": "/images/logos/zalando.svg",
+      "title": "Zalando: Operating a Tier-1 Service at Scale",
+      "technologies": [
+        "Java",
+        "Spring",
+        "Elasticsearch",
+        "Kafka",
+        "Kubernetes",
+        "AWS",
+        "Cloudformation"
+      ],
+      "excerpt": "Ensuring reliability and performance for a core backend service handling 10,000+ requests per second in a high-traffic production environment."
+    },
+    {
+      "id": "zalon",
+      "filePath": "case-studies/zalon.md",
+      "logo": "/images/logos/zalon.png",
+      "title": "Zalon by Zalando: Building a Scalable Data Platform",
+      "technologies": [
+        "Java",
+        "Python",
+        "Kafka",
+        "Spark",
+        "Redshift",
+        "Airflow",
+        "Kubernetes",
+        "AWS",
+        "PostgreSQL",
+        "Cloudformation",
+        "Quicksight"
+      ],
+      "excerpt": "Custom-built datalake to support Business Intelligence and Data Science teams with reliable, scalable access to domain-specific data."
+    },
+    {
+      "id": "grene",
+      "filePath": "case-studies/grene.md",
+      "logo": "/images/logos/grene_kramp.png",
+      "title": "Grene (Kramp Group) – Technical Wholesale Ecommerce",
+      "technologies": [
+        "Java",
+        "Spring",
+        "JSF",
+        "JPA",
+        "Hibernate",
+        "Javascript",
+        "MySQL"
+      ],
+      "excerpt": "Optimizing Grene's ecommerce platform by identifying and resolving back and front end bottlenecks."
+    }
+  ]
+}
