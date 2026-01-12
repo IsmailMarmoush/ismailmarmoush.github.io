@@ -30,8 +30,8 @@
         </div>
       </div>
 
-      <!-- Main Content Grid -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+      <!-- Main Content Grid (stacked vertically) -->
+      <div class="grid grid-cols-1 gap-8 mb-12">
         <!-- Left Column -->
         <div class="space-y-8">
           <section>
@@ -237,11 +237,7 @@
                  class="flex items-center justify-center w-20 h-16 bg-white border border-gray-200 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg">
                 <img src="/src/assets/images/memoria_logo.png" alt="Memoria Logo" class="w-16 h-12 object-contain"/>
               </a>
-              <a href="https://stackoverflow.com/users/263215/ismail-marmoush" target="_blank"
-                 class="flex items-center justify-center bg-white rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg border border-gray-200 px-2 py-1">
-                <img src="https://stackoverflow.com/users/flair/263215.png?theme=clean" alt="Stack Overflow Profile"
-                     class="rounded" style="height:48px; width:auto; display:block;"/>
-              </a>
+
               <a href="https://www.linkedin.com/in/ismailmarmoush" target="_blank"
                  class="flex items-center justify-center w-16 h-16 bg-[#0077b5] rounded-xl text-white transition-all duration-300 hover:bg-[#005885] hover:scale-110 hover:shadow-lg">
                 <svg class="w-12 h-12" viewBox="0 0 32 32" fill="none">
@@ -253,6 +249,12 @@
               <a href="https://github.com/ismailmarmoush" target="_blank"
                  class="flex items-center justify-center w-16 h-16 bg-[#fff] rounded-xl text-white transition-all duration-300  hover:scale-110 hover:shadow-lg">
                 <img src="/src/assets/images/github.png" alt="GitHub Logo" class="w-12 h-12 object-contain"/>
+              </a>
+
+              <a href="https://stackoverflow.com/users/263215/ismail-marmoush" target="_blank"
+                 class="flex items-center justify-center bg-white rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg border border-gray-200 px-2 py-1">
+                <img src="https://stackoverflow.com/users/flair/263215.png?theme=clean" alt="Stack Overflow Profile"
+                     class="rounded" style="height:48px; width:auto; display:block;"/>
               </a>
             </div>
           </div>
