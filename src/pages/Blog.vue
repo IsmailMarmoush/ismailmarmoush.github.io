@@ -4,7 +4,7 @@
       <div class="relative flex gap-6">
         <!-- Left Sidebar: Table of Contents (fixed on large screens) -->
         <aside class="hidden lg:block lg:w-64 lg:absolute lg:left-0">
-          <div class="lg:fixed lg:w-56 lg:pt-32">
+          <div class="lg:fixed lg:w-56 lg:pt-5">
             <!-- Table of Contents -->
             <TableOfContents
               :content-ref="contentDiv"
