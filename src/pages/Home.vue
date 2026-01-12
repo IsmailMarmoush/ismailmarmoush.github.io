@@ -28,33 +28,6 @@
             </p>
           </div>
         </div>
-
-        <div class="flex justify-center">
-          <div class="flex flex-1 gap-4 flex-wrap px-6 py-10  justify-center">
-            <a href="https://memoria.io/" target="_blank"
-               class="flex items-center justify-center w-20 h-16 bg-white border border-gray-200 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg">
-              <img src="/src/assets/images/memoria_logo.png" alt="Memoria Logo" class="w-16 h-12 object-contain"/>
-            </a>
-            <a href="https://stackoverflow.com/users/263215/ismail-marmoush" target="_blank"
-               class="flex items-center justify-center bg-white rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg border border-gray-200 px-2 py-1">
-              <img src="https://stackoverflow.com/users/flair/263215.png?theme=clean" alt="Stack Overflow Profile"
-                   class="rounded" style="height:48px; width:auto; display:block;"/>
-            </a>
-            <a href="https://www.linkedin.com/in/ismailmarmoush" target="_blank"
-               class="flex items-center justify-center w-16 h-16 bg-[#0077b5] rounded-xl text-white transition-all duration-300 hover:bg-[#005885] hover:scale-110 hover:shadow-lg">
-              <svg class="w-12 h-12" viewBox="0 0 32 32" fill="none">
-                <path
-                    d="M12 12h4v2h.06c.56-1.06 1.92-2.18 3.95-2.18C24.92 11.82 26 13.1 26 16.08V24h-4v-6.22c0-1.48-.53-2.5-1.85-2.5-1.01 0-1.61.68-1.87 1.34-.1.23-.13.55-.13.87V24h-4V12zm-6 0h4v12H6V12zm2-6a2 2 0 110 4 2 2 0 010-4z"
-                    fill="white"/>
-              </svg>
-            </a>
-            <a href="https://github.com/ismailmarmoush" target="_blank"
-               class="flex items-center justify-center w-16 h-16 bg-[#fff] rounded-xl text-white transition-all duration-300  hover:scale-110 hover:shadow-lg">
-              <img src="/src/assets/images/github.png" alt="GitHub Logo" class="w-12 h-12 object-contain"/>
-            </a>
-          </div>
-
-        </div>
       </div>
 
       <!-- Main Content Grid -->
@@ -162,8 +135,6 @@
               </div>
             </div>
           </section>
-
-
         </div>
 
         <!-- Right Column -->
@@ -253,6 +224,40 @@
               </div>
             </div>
           </section>
+        </div>
+      </div>
+
+      <!--  Contact section    -->
+      <div class="mb-4">
+        <div class="bg-white rounded-lg shadow-sm p-6 flex flex-col lg:flex-row items-center lg:items-start gap-6">
+          <div class="flex-shrink-0">
+            <div class="bg-center bg-no-repeat bg-cover rounded-full w-32 h-32 lg:w-36 lg:h-36"> Contact</div>
+          </div>
+          <div class="flex justify-center">
+            <div class="flex flex-1 gap-4 flex-wrap px-6 py-10  justify-center">
+              <a href="https://memoria.io/" target="_blank"
+                 class="flex items-center justify-center w-20 h-16 bg-white border border-gray-200 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                <img src="/src/assets/images/memoria_logo.png" alt="Memoria Logo" class="w-16 h-12 object-contain"/>
+              </a>
+              <a href="https://stackoverflow.com/users/263215/ismail-marmoush" target="_blank"
+                 class="flex items-center justify-center bg-white rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg border border-gray-200 px-2 py-1">
+                <img src="https://stackoverflow.com/users/flair/263215.png?theme=clean" alt="Stack Overflow Profile"
+                     class="rounded" style="height:48px; width:auto; display:block;"/>
+              </a>
+              <a href="https://www.linkedin.com/in/ismailmarmoush" target="_blank"
+                 class="flex items-center justify-center w-16 h-16 bg-[#0077b5] rounded-xl text-white transition-all duration-300 hover:bg-[#005885] hover:scale-110 hover:shadow-lg">
+                <svg class="w-12 h-12" viewBox="0 0 32 32" fill="none">
+                  <path
+                      d="M12 12h4v2h.06c.56-1.06 1.92-2.18 3.95-2.18C24.92 11.82 26 13.1 26 16.08V24h-4v-6.22c0-1.48-.53-2.5-1.85-2.5-1.01 0-1.61.68-1.87 1.34-.1.23-.13.55-.13.87V24h-4V12zm-6 0h4v12H6V12zm2-6a2 2 0 110 4 2 2 0 010-4z"
+                      fill="white"/>
+                </svg>
+              </a>
+              <a href="https://github.com/ismailmarmoush" target="_blank"
+                 class="flex items-center justify-center w-16 h-16 bg-[#fff] rounded-xl text-white transition-all duration-300  hover:scale-110 hover:shadow-lg">
+                <img src="/src/assets/images/github.png" alt="GitHub Logo" class="w-12 h-12 object-contain"/>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
