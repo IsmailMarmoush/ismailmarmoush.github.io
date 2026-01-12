@@ -31,8 +31,97 @@
       </div>
 
       <!-- Main Content Grid (stacked vertically) -->
+      <!--      What I'm Building        -->
       <div class="grid grid-cols-1 gap-8 mb-12">
-        <!-- Left Column -->
+        <div class="space-y-8">
+          <section>
+            <h2 class="text-[#101418] text-2xl font-bold mb-4">What I'm Building</h2>
+            <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+              <div class="divide-y divide-gray-200">
+                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3">
+                      <span class="text-green-500 flex-shrink-0">●</span>
+                      <span class="text-[#101418] font-medium">Project Helium</span>
+                    </div>
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">Cloud-native Java microservice foundation with AI
+                      support.
+                      <a href="https://memoria.io/#/products/helium" target="_blank" rel="noopener noreferrer"
+                         class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
+                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
+                    Release Candidate
+                  </div>
+                </div>
+
+                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3">
+                      <span class="text-yellow-500 flex-shrink-0">●</span>
+                      <span class="text-[#101418] font-medium">Project Argon</span>
+                    </div>
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">Composable infrastructure stack for distributed
+                      systems
+                      <a href="https://memoria.io/#/products/argon" target="_blank" rel="noopener noreferrer"
+                         class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
+                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded-full">
+                    Alpha
+                  </div>
+                </div>
+
+                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3">
+                      <span class="text-blue-500 flex-shrink-0">●</span>
+                      <span class="text-[#101418] font-medium">Nota.sh</span>
+                    </div>
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">Knowledge management and collaboration</div>
+                  </div>
+                  <div class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">
+                    Pre-Alpha
+                  </div>
+                </div>
+
+                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3">
+                      <span class="text-gray-500 flex-shrink-0">●</span>
+                      <span class="text-[#101418] font-medium">Memoria's Opensource Utilities</span>
+                    </div>
+                    <div class="ml-6 mt-1 text-sm text-[#5c738a] flex items-center">
+                      Available on GitHub
+                      <a href="https://github.com/memoria-io" target="_blank" rel="noopener noreferrer"
+                         class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
+                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="bg-gray-100 text-gray-800 text-sm font-medium px-3 py-1 rounded-full">
+                    General Availability
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--   Skills and Interests     -->
         <div class="space-y-8">
           <section>
 
@@ -130,6 +219,7 @@
                       <span class="text-sm text-[#5c738a] mr-4">GCP</span>
                       <span class="text-sm text-[#5c738a] mr-4">Debian</span>
                     </div>
+
                   </div>
                 </div>
               </div>
@@ -137,125 +227,53 @@
           </section>
         </div>
 
-        <!-- Right Column -->
-        <div class="space-y-8">
-          <section>
-            <h2 class="text-[#101418] text-2xl font-bold mb-4">What I'm Building</h2>
-            <div class="bg-white rounded-lg shadow-sm overflow-hidden">
-              <div class="divide-y divide-gray-200">
-                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
-                  <div class="flex-1">
-                    <div class="flex items-center gap-3">
-                      <span class="text-green-500 flex-shrink-0">●</span>
-                      <span class="text-[#101418] font-medium">Project Helium</span>
-                    </div>
-                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">Cloud-native Java microservice foundation with AI
-                      support.
-                      <a href="https://memoria.io/#/products/helium" target="_blank" rel="noopener noreferrer"
-                         class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
-                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">
-                    Release Candidate
-                  </div>
-                </div>
-
-                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
-                  <div class="flex-1">
-                    <div class="flex items-center gap-3">
-                      <span class="text-yellow-500 flex-shrink-0">●</span>
-                      <span class="text-[#101418] font-medium">Project Argon</span>
-                    </div>
-                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">Composable infrastructure stack for distributed
-                      systems
-                      <a href="https://memoria.io/#/products/argon" target="_blank" rel="noopener noreferrer"
-                         class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
-                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded-full">
-                    Alpha
-                  </div>
-                </div>
-
-                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
-                  <div class="flex-1">
-                    <div class="flex items-center gap-3">
-                      <span class="text-blue-500 flex-shrink-0">●</span>
-                      <span class="text-[#101418] font-medium">Nota.sh</span>
-                    </div>
-                    <div class="ml-6 mt-1 text-sm text-[#5c738a]">Knowledge management and collaboration</div>
-                  </div>
-                  <div class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">
-                    Pre-Alpha
-                  </div>
-                </div>
-
-                <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
-                  <div class="flex-1">
-                    <div class="flex items-center gap-3">
-                      <span class="text-gray-500 flex-shrink-0">●</span>
-                      <span class="text-[#101418] font-medium">Memoria's Opensource Utilities</span>
-                    </div>
-                    <div class="ml-6 mt-1 text-sm text-[#5c738a] flex items-center">
-                      Available on GitHub
-                      <a href="https://github.com/memoria-io" target="_blank" rel="noopener noreferrer"
-                         class="ml-2 text-[#3f7fbf] hover:text-[#2d5d8f]">
-                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="bg-gray-100 text-gray-800 text-sm font-medium px-3 py-1 rounded-full">
-                    General Availability
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
       </div>
 
       <!--  Contact section    -->
-      <div class="mb-4">
-        <h2 class="text-[#101418] text-2xl font-bold mb-4">Contact me</h2>
-        <div class="bg-white rounded-lg shadow-sm p-6 flex flex-col lg:flex-row items-center lg:items-start gap-6">
-          <div class="flex justify-center">
-            <div class="flex flex-1 gap-4 flex-wrap px-6 py-10  justify-center">
-              <a href="https://memoria.io/" target="_blank"
-                 class="flex items-center justify-center w-20 h-16 bg-white border border-gray-200 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg">
-                <img src="/src/assets/images/memoria_logo.png" alt="Memoria Logo" class="w-16 h-12 object-contain"/>
-              </a>
+      <div class="mb-10">
+        <h2 class="text-[#101418] text-2xl font-bold mb-4">Contact & Collaboration</h2>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+            <!-- Left: bigger CTA / context -->
+            <div class="lg:col-span-2">
+              <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0">I'm available for consulting, short-term
+                engagements, and speaking at events. Use the links to the right to view projects, connect
+                professionally, or reach out — I typically reply within a few business days.
+              </p>
+              <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0">
+                If you'd like to discuss a specific project, include a brief summary and your timeline when you reach
+                out.</p>
+            </div>
 
-              <a href="https://www.linkedin.com/in/ismailmarmoush" target="_blank"
-                 class="flex items-center justify-center w-16 h-16 bg-[#0077b5] rounded-xl text-white transition-all duration-300 hover:bg-[#005885] hover:scale-110 hover:shadow-lg">
-                <svg class="w-12 h-12" viewBox="0 0 32 32" fill="none">
-                  <path
-                      d="M12 12h4v2h.06c.56-1.06 1.92-2.18 3.95-2.18C24.92 11.82 26 13.1 26 16.08V24h-4v-6.22c0-1.48-.53-2.5-1.85-2.5-1.01 0-1.61.68-1.87 1.34-.1.23-.13.55-.13.87V24h-4V12zm-6 0h4v12H6V12zm2-6a2 2 0 110 4 2 2 0 010-4z"
-                      fill="white"/>
-                </svg>
-              </a>
-              <a href="https://github.com/ismailmarmoush" target="_blank"
-                 class="flex items-center justify-center w-16 h-16 bg-[#fff] rounded-xl text-white transition-all duration-300  hover:scale-110 hover:shadow-lg">
-                <img src="/src/assets/images/github.png" alt="GitHub Logo" class="w-12 h-12 object-contain"/>
-              </a>
+            <!-- Right: large, clear action links -->
+            <div class="flex flex-col items-center lg:items-end">
 
-              <a href="https://stackoverflow.com/users/263215/ismail-marmoush" target="_blank"
-                 class="flex items-center justify-center bg-white rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg border border-gray-200 px-2 py-1">
-                <img src="https://stackoverflow.com/users/flair/263215.png?theme=clean" alt="Stack Overflow Profile"
-                     class="rounded" style="height:48px; width:auto; display:block;"/>
-              </a>
+              <div class="flex flex-col w-full max-w-xs gap-3">
+                <a href="https://www.linkedin.com/in/ismailmarmoush" target="_blank" rel="noopener noreferrer"
+                   class="flex items-center justify-center gap-3 bg-[#0077b5] text-white rounded-lg px-4 py-3 font-semibold hover:shadow-lg transition">
+                  <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                        d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM8.5 8h3.84v2.18h.05c.54-1.02 1.86-2.09 3.84-2.09 4.11 0 4.87 2.71 4.87 6.24V24h-4v-7.3c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.9-2.79 3.86V24h-4V8z"/>
+                  </svg>
+                  <span>LinkedIn — Connect</span>
+                </a>
+
+                <a href="https://github.com/ismailmarmoush" target="_blank" rel="noopener noreferrer"
+                   class="flex items-center justify-center gap-3 bg-white border border-gray-200 rounded-lg px-4 py-3 text-[#111827] font-semibold hover:shadow-lg transition">
+                  <svg class="w-5 h-5 text-gray-700" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                          d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.38 7.86 10.9.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.36-1.3-1.72-1.3-1.72-1.06-.72.08-.7.08-.7 1.18.08 1.8 1.21 1.8 1.21 1.04 1.78 2.73 1.26 3.4.96.11-.75.41-1.26.75-1.55-2.56-.29-5.26-1.28-5.26-5.72 0-1.26.45-2.29 1.2-3.1-.12-.29-.52-1.45.11-3.02 0 0 .98-.31 3.2 1.18a11.15 11.15 0 012.92-.39c.99 0 1.99.13 2.92.39 2.22-1.5 3.2-1.18 3.2-1.18.63 1.57.23 2.73.11 3.02.74.81 1.2 1.84 1.2 3.1 0 4.45-2.71 5.42-5.29 5.71.42.36.8 1.07.8 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.2.67.8.56A11.52 11.52 0 0023.5 12C23.5 5.65 18.35.5 12 .5z"
+                          clip-rule="evenodd"/>
+                  </svg>
+                  <span>GitHub — Code & Repos</span>
+                </a>
+                <a href="https://stackoverflow.com/users/263215/ismail-marmoush" target="_blank"
+                   rel="noopener noreferrer"
+                   class="flex items-center justify-center gap-3 bg-white border border-gray-200 rounded-lg px-4 py-3 text-[#111827] font-semibold hover:shadow-lg transition">
+                  <img src="https://stackoverflow.com/users/flair/263215.png?theme=clean" alt="Stack Overflow Profile"
+                       class="rounded" style="height:56px; width:auto; display:block;"/>
+                </a>
+              </div>
             </div>
           </div>
         </div>
