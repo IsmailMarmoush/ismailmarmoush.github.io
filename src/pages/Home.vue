@@ -21,7 +21,21 @@
               and security-first design.</p>
             <p class="text-[#5c738a] mt-4">
               I work closely with engineering teams to build robust, maintainable, and scalable solutions, and I really
-              enjoy simplifying complexity, improving production pipelines (CI/CD) and architecture.</p>
+              enjoy simplifying complexity, improving production pipelines (CI/CD) and architecture design.</p>
+
+            <p class="text-[#5c738a] mt-4"> I recently started learning Android (3 months now), and very soon
+              venturing into Rust as well, no high expectations though. Stay tuned for some posts here about the
+              journey.</p>
+
+            <p class="text-[#5c738a] mt-4">Thanks for visiting and please feel free to connect, I love discussing tech,
+              business and chess :) </p>
+
+            <p class="text-[#5c738a] mt-4">
+              Cheers!,
+            </p>
+            <p class="text-[#5c738a] mt-4">
+              Ismail
+            </p>
           </div>
         </div>
       </div>
