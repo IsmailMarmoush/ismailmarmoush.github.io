@@ -11,16 +11,17 @@
                  style="background-image:url('/images/profile02.png');"></div>
           </div>
           <div class="text-center lg:text-left">
-            <h2 class="text-[#101418] lg:text-2xl font-extrabold mb-2">Welcome to my blog,</h2>
-            <p class="text-[#5c738a] mt-4 leading-relaxed">I’m a
+            <h2 class="text-[#101418] lg:text-2xl font-extrabold mb-2">Hi,</h2>
+            <p class="text-[#5c738a] mt-4 leading-relaxed"> Welcome to my blog, I'm a
               software engineer and consultant with 12+ years of experience, including 8+ years in Europe.</p>
-            <p class="text-[#5c738a] mt-4 leading-relaxed">I help companies scale, modernize, and secure their
+            <p class="text-[#5c738a] mt-4 leading-relaxed">I help companies and teams scale, modernize, and secure their
               platforms. My work includes high-traffic eCommerce systems, cloud-native infrastructure, distributed
               systems, and developer enablement.</p>
             <p class="text-[#5c738a] mt-4">I have strong experience in the JVM ecosystem and a keen interest in DevOps
-              and security-first design. I work closely with engineering teams to build robust, maintainable, and
-              scalable solutions, and I enjoy simplifying complexity and improving CI/CD pipelines and overall
-              architecture.</p>
+              and security-first design.</p>
+            <p class="text-[#5c738a] mt-4">
+              I work closely with engineering teams to build robust, maintainable, and scalable solutions, and I really
+              enjoy simplifying complexity, improving production pipelines (CI/CD) and architecture.</p>
           </div>
         </div>
       </div>
