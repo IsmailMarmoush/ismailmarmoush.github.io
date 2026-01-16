@@ -248,7 +248,7 @@
             <div class="lg:col-span-2">
               <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0">I'm available for consulting, short-term
                 engagements, and speaking at events. Use the links to the right to view projects, connect
-                professionally, or reach out — I typically reply within a few business days.
+                professionally, or reach out. I typically reply within a few business days.
               </p>
               <p class="text-[#5c738a] mt-4 max-w-3xl mx-auto lg:mx-0">
                 If you'd like to discuss a specific project, include a brief summary and your timeline when you reach
