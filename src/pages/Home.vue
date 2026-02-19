@@ -27,8 +27,9 @@
                   </span>
                   </h1>
                   <p class="mt-8 max-w-lg text-lg leading-relaxed text-slate-600 md:text-xl">
-                    Building Robust, Secure, and Scalable Systems. Full-stack architect specializing in enterprise
-                    infrastructure and high-performance runtimes.
+                    Building robust, secure, and scalable systems.
+                    Architecting distributed backend systems for high reliability, performance, and security. Experience
+                    delivering compliant, data-sensitive commerce platforms in Europe.
                   </p>
                   <div class="mt-10 flex flex-wrap gap-4">
                     <router-link
@@ -49,15 +50,15 @@
                     <div class="flex flex-wrap gap-3">
                       <div
                           class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
-                        <span class="h-2 w-2 rounded-full bg-orange-500"></span> JVM Specialist
+                        <span class="h-2 w-2 rounded-full bg-orange-500"></span> JVM (Java, Scala, Kotlin)
                       </div>
                       <div
                           class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
-                        <span class="h-2 w-2 rounded-full bg-blue-500"></span> DevOps &amp; Infra
+                        <span class="h-2 w-2 rounded-full bg-blue-500"></span> DevSecOps
                       </div>
                       <div
                           class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
-                        <span class="h-2 w-2 rounded-full bg-red-500"></span> Kotlin
+                        <span class="h-2 w-2 rounded-full bg-red-500"></span> Learning Rust
                       </div>
                       <div
                           class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
@@ -359,7 +360,7 @@
 <script setup lang="ts">
 document.title = 'Ismail Marmoush';
 
-import { ref } from 'vue'
+import {ref} from 'vue'
 
 const targetSection = ref<HTMLElement | null>(null)
 
