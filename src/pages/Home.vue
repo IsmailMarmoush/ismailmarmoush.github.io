@@ -6,46 +6,110 @@
       <!-- Hero Section -->
       <div class="mb-4">
         <div class="bg-white rounded-lg shadow-sm p-4 flex flex-col lg:flex-row items-center lg:items-start gap-6">
-          <div class="flex-shrink-0">
-            <div class="bg-center bg-no-repeat bg-cover rounded-full w-32 h-32 lg:w-36 lg:h-36"
-                 style="background-image:url('/images/profile02.png');"></div>
-          </div>
-          <div class="text-center lg:text-left">
-            <h2 class="text-[#101418] lg:text-2xl font-extrabold mb-2">Hi,</h2>
-            <p class="text-[#5c738a] mt-4 leading-relaxed"> Welcome to my blog, I'm a
-              software engineer and consultant with 12+ years of experience, including 8+ years in Europe.</p>
-            <p class="text-[#5c738a] mt-4 leading-relaxed">I help companies and teams scale, modernize, and secure their
-              platforms. My work includes high-traffic eCommerce systems, cloud-native infrastructure, distributed
-              systems, and developer enablement.</p>
-            <p class="text-[#5c738a] mt-4">I have strong experience in the JVM ecosystem and a keen interest in DevOps
-              and security-first design.</p>
-            <p class="text-[#5c738a] mt-4">
-              I work closely with engineering teams to build robust, maintainable, and scalable solutions, and I really
-              enjoy simplifying complexity, improving production pipelines (CI/CD) and architecture design.</p>
+          <!-- Hero Section Variant 3: Terminal Aesthetic -->
+          <section class="relative overflow-hidden bg-white pb-20 pt-16 lg:pb-32 lg:pt-24">
+            <!-- Subtle Background Decorative Elements -->
+            <div class="absolute left-0 top-0 -z-10 h-full w-full opacity-[0.03]"
+                 style="background-image: radial-gradient(#195de6 1px, transparent 1px); background-size: 40px 40px;"></div>
+            <div class="mx-auto max-w-7xl px-6 lg:px-12">
+              <div class="grid items-center gap-16 lg:grid-cols-2">
+                <!-- Left Content: Value Proposition -->
+                <div class="relative z-10 flex flex-col items-start">
+                  <div
+                      class="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-blue-50 px-3 py-1 text-xs font-bold uppercase tracking-wider text-primary">
+                    <span class="text-blue-700"><> const EXPERIENCE = 12; // years_of_excellence</span>
+                  </div>
+                  <h1 class="mt-8 text-5xl font-bold leading-[1.1] tracking-tight text-slate-900 md:text-6xl lg:text-7xl">
+                    Simplifying <br/>
+                    <span class="relative">
+                                Complexity
+                                <span class="absolute bottom-2 left-0 -z-10 h-3 w-full bg-primary/10"></span>
+                  </span>
+                  </h1>
+                  <p class="mt-8 max-w-lg text-lg leading-relaxed text-slate-600 md:text-xl">
+                    Building Robust, Secure, and Scalable Systems. Full-stack architect specializing in enterprise
+                    infrastructure and high-performance runtimes.
+                  </p>
+                  <div class="mt-10 flex flex-wrap gap-4">
+                    <router-link
+                        to="/blog"
+                        class="flex items-center gap-2 rounded-lg bg-blue-500 px-8 py-4 text-base font-bold text-white shadow-xl shadow-primary/25 transition-all hover:translate-y-[-2px]"
+                    >
+                      Read the Blog
+                      <span class="material-symbols-outlined">-></span>
+                    </router-link>
+                    <button @click="scrollToSection"
+                            class="flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-8 py-4 text-base font-bold text-slate-900 transition-all hover:bg-slate-50">
+                      View Projects
+                    </button>
+                  </div>
+                  <!-- Stack Indicators -->
+                  <div class="mt-16 flex flex-col gap-4">
+                    <p class="text-xs font-bold uppercase tracking-widest text-slate-400">Current Deep Dives</p>
+                    <div class="flex flex-wrap gap-3">
+                      <div
+                          class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
+                        <span class="h-2 w-2 rounded-full bg-orange-500"></span> JVM Specialist
+                      </div>
+                      <div
+                          class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
+                        <span class="h-2 w-2 rounded-full bg-blue-500"></span> DevOps &amp; Infra
+                      </div>
+                      <div
+                          class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
+                        <span class="h-2 w-2 rounded-full bg-red-500"></span> Kotlin
+                      </div>
+                      <div
+                          class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
+                        <span class="h-2 w-2 rounded-full bg-green-500"></span> Android
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Right Content: Visual Identity -->
+                <div class="relative">
+                  <!-- Code Snippet Decorative Card -->
 
-            <p class="text-[#5c738a] mt-4"> I recently started learning Android (3 months now), and very soon
-              venturing into Rust as well, no high expectations though. Stay tuned for some posts here about the
-              journey.</p>
-
-            <p class="text-[#5c738a] mt-4">Thanks for visiting and please feel free to connect, I love discussing tech,
-              business and chess :) </p>
-
-            <p class="text-[#5c738a] mt-4">
-              Cheers!,
-            </p>
-            <p class="text-[#5c738a] mt-4">
-              Ismail
-            </p>
-          </div>
+                  <!-- Main Portrait Container -->
+                  <div class="relative mx-auto max-w-md">
+                    <div class="absolute -inset-4 rounded-[2rem] border-2 border-dashed border-slate-200"></div>
+                    <div class="relative overflow-hidden rounded-[1.5rem] bg-slate-100 shadow-2xl">
+                      <img alt="Ismail Portrait" class="h-full w-full object-cover"
+                           data-alt="Professional headshot of a smiling male software engineer"
+                           src="/images/profile02.png"/>
+                      <!-- Floating Insight Tag -->
+                      <div
+                          class="absolute bottom-6 left-6 right-6 rounded-lg bg-white/90 p-4 shadow-xl backdrop-blur-sm">
+                        <div class="flex items-center justify-between">
+                          <div>
+                            <p class="text-[10px] font-bold uppercase tracking-widest text-slate-400">Latest Insight</p>
+                            <p class="text-sm font-bold text-slate-900">Project Helium in Production</p>
+                          </div>
+                          <!--                          <div class="flex h-8 w-8 items-center justify-center rounded-full bg-primary/10 text-primary">-->
+                          <!--                            <span class="material-symbols-outlined text-lg">trending_up</span>-->
+                          <!--                          </div>-->
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Decorative Dots -->
+                    <!--                    <div-->
+                    <!--                        class="absolute -bottom-6 -right-6 h-24 w-24 bg-[radial-gradient(#e2e8f0_2px,transparent_2px)] [background-size:12px_12px]"></div>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
 
       <!-- Main Content Grid (stacked vertically) -->
       <!--      What I'm Building        -->
-      <div class="grid grid-cols-1 gap-8 mb-12">
+      <div class="grid grid-cols-1 gap-8 mb-20">
         <div class="space-y-8">
           <section>
-            <h2 class="text-[#101418] text-2xl font-bold mb-4">What I'm Building</h2>
+            <h2 ref="targetSection" class="text-[#101418] text-2xl mb-5 mt-10">
+              What I'm Building
+            </h2>
             <div class="bg-white rounded-lg shadow-sm overflow-hidden">
               <div class="divide-y divide-gray-200">
                 <div class="flex items-center p-4 hover:bg-gray-50 transition-colors">
@@ -135,7 +199,7 @@
         <div class="space-y-8">
           <section>
 
-            <h2 class="text-[#101418] text-2xl font-bold mb-4">Skills & Interests</h2>
+            <h2 class="text-[#101418] text-2xl mb-5 mt-10">Skills & Interests</h2>
             <div class="bg-white rounded-lg shadow-sm overflow-hidden">
               <div class="divide-y divide-gray-200">
                 <!-- Programming Languages -->
@@ -241,7 +305,7 @@
 
       <!--  Contact section    -->
       <div class="mb-0">
-        <h2 class="text-[#101418] text-2xl font-bold mb-4">Contact & Collaboration</h2>
+        <h2 class="text-[#101418] text-2xl mb-5">Contact & Collaboration</h2>
         <div class="bg-white rounded-lg shadow-md p-6">
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
             <!-- Left: bigger CTA / context -->
@@ -294,4 +358,14 @@
 
 <script setup lang="ts">
 document.title = 'Ismail Marmoush';
+
+import { ref } from 'vue'
+
+const targetSection = ref<HTMLElement | null>(null)
+
+const scrollToSection = () => {
+  targetSection.value?.scrollIntoView({
+    behavior: 'smooth'
+  })
+}
 </script>
