@@ -32,6 +32,7 @@
       </button>
 
       <Footer />
+      <CookieConsent />
     </div>
   </div>
 </template>
@@ -41,6 +42,7 @@ import './assets/styles/tailwind.css'
 import { ref, onMounted, onUnmounted } from 'vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import CookieConsent from './components/CookieConsent.vue'
 
 // Scroll to top functionality
 const showScrollTop = ref(false)

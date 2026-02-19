@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    container_name: docker-node-tut
+    restart: always
+    ports:
+      - 4026:8080
+    command: bash -c /usr/src/app/start.sh
+    env_file: .env
