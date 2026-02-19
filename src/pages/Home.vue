@@ -46,11 +46,11 @@
                   </div>
                   <!-- Stack Indicators -->
                   <div class="mt-16 flex flex-col gap-4">
-                    <p class="text-xs font-bold uppercase tracking-widest text-slate-400">Current Deep Dives</p>
+                    <p class="text-xs font-bold uppercase tracking-widest text-slate-400">Current focus</p>
                     <div class="flex flex-wrap gap-3">
                       <div
                           class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
-                        <span class="h-2 w-2 rounded-full bg-orange-500"></span> JVM (Java, Scala, Kotlin)
+                        <span class="h-2 w-2 rounded-full bg-red-500"></span> Software Architecture
                       </div>
                       <div
                           class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
@@ -58,11 +58,15 @@
                       </div>
                       <div
                           class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
-                        <span class="h-2 w-2 rounded-full bg-red-500"></span> Software Architecture
+                        <span class="h-2 w-2 rounded-full bg-orange-500"></span> Java & Kotlin
                       </div>
                       <div
                           class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
                         <span class="h-2 w-2 rounded-full bg-green-500"></span> Android
+                      </div>
+                      <div
+                          class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
+                        <span class="h-2 w-2 rounded-full bg-red-500"></span> Rust (early-stage experience)
                       </div>
                     </div>
                   </div>
