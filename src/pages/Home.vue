@@ -27,7 +27,10 @@
                   </span>
                   </h1>
                   <p class="mt-8 max-w-lg text-lg leading-relaxed text-slate-600 md:text-xl">
-                    Architecting scalable, secure, and high-performance distributed backend systems. Experienced in
+                    Architecting scalable, secure, and high-performance distributed backend systems.
+                  </p>
+                  <p class="mt-4 max-w-lg text-lg leading-relaxed text-slate-600 md:text-xl">
+                    Experienced in
                     delivering compliant, data-sensitive commerce platforms across Europe.
                   </p>
                   <div class="mt-10 flex flex-wrap gap-4">
