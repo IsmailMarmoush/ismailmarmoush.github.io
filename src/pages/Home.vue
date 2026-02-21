@@ -64,11 +64,11 @@
                       </div>
                       <div
                           class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
-                        <span class="h-2 w-2 rounded-full bg-green-500"></span> Android
+                        <span class="h-2 w-2 rounded-full bg-green-500"></span> Android (Novice)
                       </div>
                       <div
                           class="flex items-center gap-2 rounded-md border border-slate-100 bg-slate-50/50 px-3 py-2 text-sm font-medium text-slate-700">
-                        <span class="h-2 w-2 rounded-full bg-red-500"></span> Rust (early-stage experience)
+                        <span class="h-2 w-2 rounded-full bg-red-500"></span> Rust (Beginner)
                       </div>
                     </div>
                   </div>
