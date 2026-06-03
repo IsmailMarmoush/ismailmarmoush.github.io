@@ -1,26 +1,95 @@
 <template>
-  <header class="flex justify-center whitespace-nowrap">
-    <div class="flex w-full max-w-[1200px] items-center justify-between py-5">
-      <div class="flex items-center gap-4 text-[#101418]">
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-wrapper">
         <a href="/">
-          <img src="/src/assets/images/logo.png" alt="Marmoush.com Logo" class="h-6 w-auto">
+          <img src="/src/assets/images/logo.png" alt="Marmoush.com Logo" class="logo">
         </a>
       </div>
-      <div class="flex flex-1 justify-end gap-8">
-        <nav class="flex items-center gap-14">
-          <router-link 
-            to="/" 
-            class="relative text-[#101418] text-sm font-medium leading-normal hover:text-blue-500 transition-colors"
-            :class="{ 'after:absolute after:bottom-[-2px] after:left-0 after:w-full after:h-0.5 after:bg-blue-500': $route.path === '/' }"
-          >Home</router-link>
+      <div class="nav-wrapper">
+        <nav class="nav">
+          <router-link
+              to="/"
+              class="nav-link"
+              :class="{ 'active': $route.path === '/' }"
+          >Home
+          </router-link>
 
           <router-link
-            to="/blog" 
-            class="relative text-[#101418] text-sm font-medium leading-normal hover:text-blue-500 transition-colors"
-            :class="{ 'after:absolute after:bottom-[-2px] after:left-0 after:w-full after:h-0.5 after:bg-blue-500': $route.path === '/blog' }"
-          >Blog</router-link>
+              to="/blog"
+              class="nav-link"
+              :class="{ 'active': $route.path === '/blog' }"
+          >Blog
+          </router-link>
         </nav>
       </div>
     </div>
   </header>
 </template>
+
+<style scoped>
+.header {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #101418;
+}
+
+.logo {
+  height: 1.5rem;
+  width: auto;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.nav-link {
+  position: relative;
+  color: #101418;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #3b82f6;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 0.125rem;
+  background-color: #3b82f6;
+}
+</style>
