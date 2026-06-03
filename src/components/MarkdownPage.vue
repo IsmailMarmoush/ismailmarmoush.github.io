@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-4xl mx-auto px-4 py-8">
+  <div class="markdown-page-container">
     <div class="prose prose-lg" v-html="renderedContent"></div>
   </div>
 </template>
@@ -35,8 +35,23 @@ watch(() => props.pageName, () => {
 })
 </script>
 
-<style>
+<style scoped>
+.markdown-page-container {
+  max-width: 56rem; /* 4xl */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .prose {
   max-width: 100%;
 }
-</style> 
+
+.prose :deep(img) {
+  max-width: 100%;
+  height: auto;
+}
+</style>
