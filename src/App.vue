@@ -1,7 +1,8 @@
 <template>
-  <div class="relative flex size-full min-h-screen flex-col bg-gray-50 group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+  <div class="relative flex size-full min-h-screen flex-col bg-gray-50 group/design-root overflow-x-hidden"
+       style='font-family: Inter, "Noto Sans", sans-serif;'>
     <div class="layout-container flex h-full grow flex-col">
-      <Header />
+      <Header/>
 
       <!-- Main Content -->
       <main class="flex-1">
@@ -10,35 +11,35 @@
 
       <!-- Scroll to Top Button -->
       <button
-        v-show="showScrollTop"
-        @click="scrollToTop"
-        class="fixed bottom-8 right-8 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-[#3f7fbf] text-white shadow-lg transition-all hover:bg-[#2d5d8f] focus:outline-none"
-        aria-label="Scroll to top"
+          v-show="showScrollTop"
+          @click="scrollToTop"
+          class="fixed bottom-8 right-8 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-[#3f7fbf] text-white shadow-lg transition-all hover:bg-[#2d5d8f] focus:outline-none"
+          aria-label="Scroll to top"
       >
         <svg
-          class="h-6 w-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2.5"
-            d="M5 10l7-7m0 0l7 7m-7-7v18"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2.5"
+              d="M5 10l7-7m0 0l7 7m-7-7v18"
           ></path>
         </svg>
       </button>
 
-      <Footer />
+      <Footer/>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import './assets/styles/tailwind.css'
-import { ref, onMounted, onUnmounted } from 'vue'
+import {ref, onMounted, onUnmounted} from 'vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 
