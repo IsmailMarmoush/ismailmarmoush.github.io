@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import './assets/styles/tailwind.css'
+import './assets/styles/main.css'
 import {ref, onMounted, onUnmounted} from 'vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
