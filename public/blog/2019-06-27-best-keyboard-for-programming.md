@@ -1,8 +1,7 @@
 ## TL;DR
 
 This is the best keyboard design `ANSI 75%`:
-
-<img src="/images/keyboards/vortex_keyboard.png" alt="vortex keyboard" width="600"/>
+![vortex keyboard](/images/keyboards/vortex_keyboard.png)
 
 *Keyboard in image is Vortex mechanical Ansi 75% English*
 
@@ -14,7 +13,7 @@ Most keyboards are either too compact, or oversized
 
 **The 60% / 70% Compact Keyboards**
 
-<img src="/images/keyboards/apple_keyboard.jpeg" alt="apple keyboard" width="600"/>
+![apple keyboard](/images/keyboards/apple_keyboard.jpeg)
 
 Common on modern laptops—often Apple-inspired—these "hipster" layouts with tiny arrow keys are a productivity nightmare.
 
@@ -24,7 +23,7 @@ You constantly need to press the Fn key just to navigate. Highlighting with `Hom
 
 ## The oversized
 
-<img src="/images/keyboards/100keyboard.png" alt="100 percent keyboard" width="600"/>
+![100 percent keyboard](/images/keyboards/100keyboard.png)
 
 Don't get me wrong the very first keyboard I used was 100%, the thing is numpads are mostly useless unless you're doing a lot of numbers data entry and as soon as I started programming the wrist movement was too much, especially switching to/from the mouse.
 
@@ -42,7 +41,7 @@ Don't get me wrong the very first keyboard I used was 100%, the thing is numpads
 
 I was lucky that the first laptop I had was **Dell Inspiron 1545**, btw after almost 15 years, it's still working.
 
-<img src="/images/keyboards/dell_insprion_keyboard.jpeg" alt="Dell Inspiron Keyboard" width="600"/>
+![Dell Inspiron Keyboard](/images/keyboards/dell_insprion_keyboard.jpeg)
 
 ---
 

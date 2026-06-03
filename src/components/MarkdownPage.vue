@@ -49,4 +49,9 @@ watch(() => props.pageName, () => {
 .prose {
   max-width: 100%;
 }
+
+.prose :deep(img) {
+  max-width: 100%;
+  height: auto;
+}
 </style>

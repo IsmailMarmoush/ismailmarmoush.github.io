@@ -425,6 +425,8 @@ object {
   /* 1 */
   vertical-align: middle;
   /* 2 */
+  max-width: 100%;
+  height: auto;
 }
 
 .prose {

@@ -331,9 +331,11 @@ watch(currentArticle, (newArticle) => {
   scroll-margin-top: 100px;
 }
 
-/* Make blog images have rounded corners */
+/* Make blog images have rounded corners and stay within container */
 .prose :deep(img) {
   border-radius: 0.5rem;
+  max-width: 100%;
+  height: auto;
 }
 
 .sidebar-right {
