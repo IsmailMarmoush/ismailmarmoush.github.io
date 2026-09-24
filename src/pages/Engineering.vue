@@ -6,7 +6,9 @@
       <div class="engineering-hero">
         <h1>Engineering</h1>
         <p> I design and build reliable, scalable systems using modern architectures, proven engineering practices, and
-          technologies suited to the problem. </p>
+          technologies suited to the problem. I help startups and growing businesses modernize, scale, and secure their
+          technology, working closely with teams to understand the problem, reduce unnecessary complexity, and choose
+          solutions that fit the business. </p>
       </div>
 
       <!-- Architecture & Best Practices -->
@@ -202,6 +204,93 @@
           </div>
         </div>
       </section>
+
+      <!-- Engineering Principles -->
+      <section class="engineering-principles">
+        <h2>How I Work</h2>
+        <div class="engineering-principles-grid">
+          <article class="engineering-principle-card">
+            <div class="engineering-principle-heading">
+              <div class="engineering-principle-icon">⚡</div>
+              <h3>Simplicity Over Complexity</h3>
+            </div>
+            <p>I prefer simple solutions that solve the actual problem without unnecessary abstractions, infrastructure,
+              or complexity.</p>
+          </article>
+
+          <article class="engineering-principle-card">
+            <div class="engineering-principle-heading">
+              <div class="engineering-principle-icon">◉</div>
+              <h3>Transparency</h3>
+            </div>
+            <p>I communicate openly about technical trade-offs, risks, and constraints, and work collaboratively with
+              the people involved.</p>
+          </article>
+
+          <article class="engineering-principle-card">
+            <div class="engineering-principle-heading">
+              <div class="engineering-principle-icon">✓</div>
+              <h3>Technical Excellence</h3>
+            </div>
+            <p>I care about technical quality, clean design, and systems that remain understandable and maintainable as
+              they evolve.</p>
+          </article>
+
+          <article class="engineering-principle-card">
+            <div class="engineering-principle-heading">
+              <div class="engineering-principle-icon">✦</div>
+              <h3>Deep Expertise</h3>
+            </div>
+            <p>My experience spans backend engineering, distributed systems, JVM ecosystems, cloud infrastructure, and
+              software architecture.</p>
+          </article>
+
+          <article class="engineering-principle-card">
+            <div class="engineering-principle-heading">
+              <div class="engineering-principle-icon">▣</div>
+              <h3>Security-First</h3>
+            </div>
+            <p>I treat security as part of the architecture, with appropriate attention to identity, authorization,
+              isolation, and secure delivery.</p>
+          </article>
+
+          <article class="engineering-principle-card">
+            <div class="engineering-principle-heading">
+              <div class="engineering-principle-icon">▥</div>
+              <h3>Observability</h3>
+            </div>
+            <p>I design systems with monitoring, tracing, and logging as integral parts of the system rather than
+              afterthoughts.</p>
+          </article>
+
+          <article class="engineering-principle-card">
+            <div class="engineering-principle-heading">
+              <div class="engineering-principle-icon">◷</div>
+              <h3>Iterative Delivery</h3>
+            </div>
+            <p>I prefer small, iterative steps with continuous feedback over trying to design and deliver everything
+              upfront.</p>
+          </article>
+
+          <article class="engineering-principle-card">
+            <div class="engineering-principle-heading">
+              <div class="engineering-principle-icon">✓</div>
+              <h3>System Reliability</h3>
+            </div>
+            <p>I build for failure and change, with an emphasis on resilient systems that remain dependable as usage and
+              requirements evolve.</p>
+          </article>
+
+          <article class="engineering-principle-card">
+            <div class="engineering-principle-heading">
+              <div class="engineering-principle-icon">⏱</div>
+              <h3>27/7 Support</h3>
+            </div>
+            <p>Round-the-clock expert support ensuring your systems run smoothly at all times.</p>
+          </article>
+
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -346,7 +435,7 @@ watch(() => route.params.caseStudyId, async newCaseStudyId => {
 }
 
 .engineering-hero p {
-  max-width: 42rem;
+  max-width: 60rem;
   margin-left: auto;
   margin-right: auto;
   color: #5c738a;
@@ -473,6 +562,30 @@ watch(() => route.params.caseStudyId, async newCaseStudyId => {
   color: #22c55e;
 }
 
+.about-icon-small {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.about-vision {
+  margin-bottom: 4rem;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+}
+
+.about-section-heading,
+.about-value-heading {
+  display: flex;
+  align-items: center;
+}
+
+.about-section-heading {
+  margin-bottom: 2rem;
+  gap: 1.5rem;
+}
+
 /* Technology */
 
 .engineering-technology {
@@ -521,6 +634,78 @@ watch(() => route.params.caseStudyId, async newCaseStudyId => {
   list-style: none;
   color: #5c738a;
   font-size: 0.875rem;
+}
+
+.engineering-principles {
+  margin-bottom: 4rem;
+}
+
+.engineering-principles > h2 {
+  margin-bottom: 2rem;
+  color: #101418;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.engineering-principles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.engineering-principle-card {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+  transition: box-shadow 0.2s ease;
+}
+
+.engineering-principle-card:hover {
+  box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
+}
+
+.engineering-principle-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.engineering-principle-icon {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #3f7fbf;
+  background: rgb(63 127 191 / 10%);
+  font-size: 1.25rem;
+}
+
+.engineering-principle-card h3 {
+  color: #101418;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.engineering-principle-card p {
+  color: #5c738a;
+}
+
+@media (max-width: 1024px) {
+  .engineering-principles-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .engineering-principles-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 </style>
