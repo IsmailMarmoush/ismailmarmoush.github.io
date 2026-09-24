@@ -47,7 +47,7 @@
                     <span class="dot "></span> Android
                   </div>
                   <div class="stack-item">
-                    <span class="dot "></span> Rust (Beginner)
+                    <span class="dot "></span> Rust (Evaluating)
                   </div>
                 </div>
               </div>
@@ -168,8 +168,6 @@
                       <span class="skill-tag">Scala</span>
                       <span class="skill-tag">JavaScript</span>
                       <span class="skill-tag">Rust</span>
-                      <span class="skill-tag">Python</span>
-                      <span class="skill-tag">TypeScript</span>
                     </div>
                   </div>
                 </div>
@@ -785,7 +783,7 @@ const scrollToSection = () => {
 }
 
 .github-icon {
-  color: #374151; /* text-gray-700 */
+  color: #374151;
 }
 
 .github-btn {

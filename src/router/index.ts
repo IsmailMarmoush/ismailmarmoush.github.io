@@ -1,6 +1,8 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../pages/Home.vue'
 import Blog from '../pages/Blog.vue'
+import Engineering from '../pages/Engineering.vue'
+import CaseStudies from "../pages/CaseStudies.vue";
 
 // Declare gtag for TypeScript
 declare global {
@@ -18,6 +20,9 @@ const router = createRouter({
         { path: '/', name: 'home', component: Home },
         { path: '/blog', name: 'blog', component: Blog },
         { path: '/blog/:postId', name: 'blog-post-detail', component: Blog },
+        { path: '/engineering', name: 'engineering', component: Engineering },
+        { path: '/case-studies/:caseStudyId', name: 'case-study-detail', component: CaseStudies },
+        { path: '/case-studies', name: 'case-studies', component: CaseStudies },
     ]
 })
 

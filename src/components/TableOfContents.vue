@@ -236,7 +236,7 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #9ca3af; /* text-gray-400 */
+  color: #9ca3af;
   background: none;
   border: none;
   cursor: pointer;
@@ -244,7 +244,7 @@ onUnmounted(() => {
 }
 
 .toggle-btn:hover {
-  color: #4b5563; /* text-gray-600 */
+  color: #4b5563;
 }
 
 .toggle-icon {
@@ -266,13 +266,13 @@ onUnmounted(() => {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   font-size: 0.875rem;
-  color: #4b5563; /* text-gray-600 */
+  color: #4b5563;
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .toc-link:hover {
-  color: #3b82f6; /* text-blue-500 */
+  color: #3b82f6;
 }
 
 .toc-sub-items {
@@ -286,7 +286,7 @@ onUnmounted(() => {
 }
 
 .grandchild-link {
-  color: #6b7280; /* text-gray-500 */
+  color: #6b7280;
 }
 
 /* Custom scrollbar for TOC */

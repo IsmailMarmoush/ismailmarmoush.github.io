@@ -1,6 +1,6 @@
 <template>
   <div class="markdown-page-container">
-    <div class="prose prose-lg" v-html="renderedContent"></div>
+    <div class="prose" v-html="renderedContent"></div>
   </div>
 </template>
 
@@ -37,7 +37,7 @@ watch(() => props.pageName, () => {
 
 <style scoped>
 .markdown-page-container {
-  max-width: 56rem; /* 4xl */
+  max-width: 56rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;

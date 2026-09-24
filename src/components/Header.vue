@@ -14,7 +14,18 @@
               :class="{ 'active': $route.path === '/' }"
           >Home
           </router-link>
-
+          <router-link
+              to="/engineering"
+              class="nav-link"
+              :class="{ 'active': $route.path === '/engineering' }"
+          >Engineering
+          </router-link>
+          <router-link
+              to="/case-studies"
+              class="nav-link"
+              :class="{ 'active': $route.path === '/case-studies' }"
+          >Case Studies
+          </router-link>
           <router-link
               to="/blog"
               class="nav-link"
@@ -93,3 +104,5 @@
   background-color: #3b82f6;
 }
 </style>
+<script setup lang="ts">
+</script>
