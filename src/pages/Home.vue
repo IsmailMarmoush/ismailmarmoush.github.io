@@ -6,83 +6,48 @@
         <div class="hero-card">
           <!-- Hero Section Variant 3: Terminal Aesthetic -->
           <section class="hero-section">
-            <!-- Subtle Background Decorative Elements -->
-            <div class="hero-bg-pattern"></div>
             <div class="hero-content-container">
-              <div class="hero-grid">
-                <!-- Left Content: Value Proposition -->
-                <div class="hero-left">
-                  <div class="experience-badge">
-                    <span class="experience-text"><> const EXPERIENCE = 12; // years_of_excellence</span>
+              <h1 class="hero-title">
+                Simplifying Complexity
+              </h1>
+              <p class="hero-description">
+                Architecting scalable, secure, and high-performance distributed backend systems.
+              </p>
+              <p class="hero-secondary-description">
+                Experienced in
+                delivering compliant, data-sensitive commerce platforms across Europe.
+              </p>
+              <div class="hero-actions">
+                <router-link
+                    to="/blog"
+                    class="btn btn-primary"
+                >
+                  Read the Blog
+                  <span class="material-symbols-outlined">-></span>
+                </router-link>
+                <button @click="scrollToSection"
+                        class="btn btn-secondary">
+                  View Projects
+                </button>
+              </div>
+              <!-- Stack Indicators -->
+              <div class="stack-indicators">
+                <p class="stack-label">Current focus</p>
+                <div class="stack-list">
+                  <div class="stack-item">
+                    <span class="dot "></span> Software Architecture
                   </div>
-                  <h1 class="hero-title">
-                    Simplifying <br/>
-                    <span class="highlight-wrapper">
-                                Complexity
-                                <span class="highlight-bg"></span>
-                  </span>
-                  </h1>
-                  <p class="hero-description">
-                    Architecting scalable, secure, and high-performance distributed backend systems.
-                  </p>
-                  <p class="hero-secondary-description">
-                    Experienced in
-                    delivering compliant, data-sensitive commerce platforms across Europe.
-                  </p>
-                  <div class="hero-actions">
-                    <router-link
-                        to="/blog"
-                        class="btn btn-primary"
-                    >
-                      Read the Blog
-                      <span class="material-symbols-outlined">-></span>
-                    </router-link>
-                    <button @click="scrollToSection"
-                            class="btn btn-secondary">
-                      View Projects
-                    </button>
+                  <div class="stack-item">
+                    <span class="dot "></span> DevSecOps
                   </div>
-                  <!-- Stack Indicators -->
-                  <div class="stack-indicators">
-                    <p class="stack-label">Current focus</p>
-                    <div class="stack-list">
-                      <div class="stack-item">
-                        <span class="dot dot-red"></span> Software Architecture
-                      </div>
-                      <div class="stack-item">
-                        <span class="dot dot-blue"></span> DevSecOps
-                      </div>
-                      <div class="stack-item">
-                        <span class="dot dot-orange"></span> Java & Kotlin
-                      </div>
-                      <div class="stack-item">
-                        <span class="dot dot-green"></span> Android
-                      </div>
-                      <div class="stack-item">
-                        <span class="dot dot-red"></span> Rust (Beginner)
-                      </div>
-                    </div>
+                  <div class="stack-item">
+                    <span class="dot "></span> Java & Kotlin
                   </div>
-                </div>
-                <!-- Right Content: Visual Identity -->
-                <div class="hero-right">
-                  <!-- Main Portrait Container -->
-                  <div class="portrait-container">
-                    <div class="portrait-border"></div>
-                    <div class="portrait-image-wrapper">
-                      <img alt="Ismail Portrait" class="portrait-image"
-                           data-alt="Professional headshot of a smiling male software engineer"
-                           src="/images/profile02.png"/>
-                      <!-- Floating Insight Tag -->
-                      <div class="insight-tag">
-                        <div class="insight-content">
-                          <div>
-                            <p class="insight-label">Latest Insight</p>
-                            <p class="insight-title">Project Helium in Production</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="stack-item">
+                    <span class="dot "></span> Android
+                  </div>
+                  <div class="stack-item">
+                    <span class="dot "></span> Rust (Beginner)
                   </div>
                 </div>
               </div>
@@ -104,7 +69,7 @@
                 <div class="project-item">
                   <div class="project-info">
                     <div class="project-name-wrapper">
-                      <span class="project-dot dot-green">●</span>
+                      <span class="project-dot ">●</span>
                       <span class="project-name">Project Helium</span>
                     </div>
                     <div class="project-description">Cloud-native Java microservice foundation with AI
@@ -126,7 +91,7 @@
                 <div class="project-item">
                   <div class="project-info">
                     <div class="project-name-wrapper">
-                      <span class="project-dot dot-yellow">●</span>
+                      <span class="project-dot ">●</span>
                       <span class="project-name">Project Argon</span>
                     </div>
                     <div class="project-description">Composable infrastructure stack for distributed
@@ -148,7 +113,7 @@
                 <div class="project-item">
                   <div class="project-info">
                     <div class="project-name-wrapper">
-                      <span class="project-dot dot-blue">●</span>
+                      <span class="project-dot ">●</span>
                       <span class="project-name">Nota.sh</span>
                     </div>
                     <div class="project-description">Knowledge management and collaboration</div>
@@ -161,7 +126,7 @@
                 <div class="project-item">
                   <div class="project-info">
                     <div class="project-name-wrapper">
-                      <span class="project-dot dot-gray">●</span>
+                      <span class="project-dot ">●</span>
                       <span class="project-name">Memoria's Opensource Utilities</span>
                     </div>
                     <div class="project-description flex-items-row">
@@ -194,7 +159,7 @@
                 <div class="skill-group">
                   <div class="skill-info">
                     <div class="skill-header">
-                      <span class="skill-dot dot-green">●</span>
+                      <span class="skill-dot ">●</span>
                       <span class="skill-name">Programming Languages</span>
                     </div>
                     <div class="skill-tags">
@@ -213,7 +178,7 @@
                 <div class="skill-group">
                   <div class="skill-info">
                     <div class="skill-header">
-                      <span class="skill-dot dot-blue">●</span>
+                      <span class="skill-dot ">●</span>
                       <span class="skill-name">Architecture & Paradigms</span>
                     </div>
                     <div class="skill-tags">
@@ -237,7 +202,7 @@
                 <div class="skill-group">
                   <div class="skill-info">
                     <div class="skill-header">
-                      <span class="skill-dot dot-yellow">●</span>
+                      <span class="skill-dot ">●</span>
                       <span class="skill-name">Tech Stack & Tools</span>
                     </div>
                     <div class="skill-tags">
@@ -263,7 +228,7 @@
                 <div class="skill-group">
                   <div class="skill-info">
                     <div class="skill-header">
-                      <span class="skill-dot dot-pink">●</span>
+                      <span class="skill-dot ">●</span>
                       <span class="skill-name">DevOps & Cloud</span>
                     </div>
                     <div class="skill-tags">
@@ -405,33 +370,16 @@ const scrollToSection = () => {
   overflow: hidden;
   background-color: #ffffff;
   padding-bottom: 5rem;
-  padding-top: 4rem;
+  padding-top: 1rem;
 }
 
-.hero-bg-pattern {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -10;
-  height: 100%;
-  width: 100%;
-  opacity: 0.03;
-  background-image: radial-gradient(#195de6 1px, transparent 1px);
-  background-size: 40px 40px;
-}
 
 .hero-content-container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 80rem;
+  max-width: 90rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.hero-grid {
-  display: grid;
-  align-items: center;
-  gap: 4rem;
 }
 
 @media (min-width: 1024px) {
@@ -443,25 +391,13 @@ const scrollToSection = () => {
 
   .hero-section {
     padding-bottom: 8rem;
-    padding-top: 6rem;
+    padding-top: 1rem;
   }
 
   .hero-content-container {
     padding-left: 3rem;
     padding-right: 3rem;
   }
-
-  .hero-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-.hero-left {
-  position: relative;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .experience-badge {
@@ -519,7 +455,7 @@ const scrollToSection = () => {
 
 .hero-description {
   margin-top: 2rem;
-  max-width: 32rem;
+  max-width: 100rem;
   font-size: 1.125rem;
   line-height: 1.625;
   color: #475569;
@@ -527,7 +463,7 @@ const scrollToSection = () => {
 
 .hero-secondary-description {
   margin-top: 1rem;
-  max-width: 32rem;
+  max-width: 100rem;
   font-size: 1.125rem;
   line-height: 1.625;
   color: #475569;
@@ -618,101 +554,6 @@ const scrollToSection = () => {
   height: 0.5rem;
   width: 0.5rem;
   border-radius: 9999px;
-}
-
-.dot-red {
-  background-color: #ef4444;
-}
-
-.dot-blue {
-  background-color: #3b82f6;
-}
-
-.dot-orange {
-  background-color: #f97316;
-}
-
-.dot-green {
-  background-color: #22c55e;
-}
-
-.dot-yellow {
-  background-color: #eab308;
-}
-
-.dot-gray {
-  background-color: #6b7280;
-}
-
-.dot-pink {
-  background-color: #ec4899;
-}
-
-.hero-right {
-  position: relative;
-}
-
-.portrait-container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 28rem;
-}
-
-.portrait-border {
-  position: absolute;
-  top: -1rem;
-  right: -1rem;
-  bottom: -1rem;
-  left: -1rem;
-  border-radius: 2rem;
-  border: 2px dashed #e2e8f0;
-}
-
-.portrait-image-wrapper {
-  position: relative;
-  overflow: hidden;
-  border-radius: 1.5rem;
-  background-color: #f1f5f9;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-}
-
-.portrait-image {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.insight-tag {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 1.5rem;
-  right: 1.5rem;
-  border-radius: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 1rem;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4px);
-}
-
-.insight-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.insight-label {
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #94a3b8;
-}
-
-.insight-title {
-  font-size: 0.875rem;
-  font-weight: 700;
-  color: #0f172a;
 }
 
 .content-section-grid {
