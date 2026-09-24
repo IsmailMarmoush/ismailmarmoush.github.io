@@ -2,15 +2,13 @@
   <div class="case-studies-page">
     <div class="case-studies-content">
 
-      <!-- Case Studies Transition -->
+      <!-- Case Studies Hero -->
       <section class="case-studies-intro">
-        <div>
-          <h1>Case Studies</h1>
-          <p>
-            Selected projects where I designed, built, and modernized production systems
-            across different industries and technical environments.
-          </p>
-        </div>
+        <h1>Case Studies</h1>
+        <p>
+          Selected projects where I designed, built, and modernized production systems
+          across different industries and technical environments.
+        </p>
       </section>
 
       <!-- Case Studies -->
@@ -250,22 +248,18 @@ watch(() => route.params.caseStudyId, async newCaseStudyId => {
 /* Case Studies */
 
 .case-studies-intro {
+  margin-top: 2.5rem;
   margin-bottom: 3rem;
   text-align: center;
 }
 
-.case-studies-intro > div {
-  padding: 2rem;
-  color: #ffffff;
-  background: linear-gradient(to right, #3f7fbf, #2d5d8f);
-  border-radius: 0.5rem;
-}
-
-.case-studies-intro h2 {
+.case-studies-intro h1 {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  color: #101418;
+  font-size: 2.25rem;
   font-weight: 700;
+  line-height: 1.1;
 }
 
 .case-studies-intro p {
@@ -273,6 +267,7 @@ watch(() => route.params.caseStudyId, async newCaseStudyId => {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
+  color: #5c738a;
   font-size: 1.125rem;
   line-height: 1.625;
 }
