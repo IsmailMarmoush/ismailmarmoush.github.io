@@ -27,6 +27,12 @@
           >Case Studies
           </router-link>
           <router-link
+              to="/about"
+              class="nav-link"
+              :class="{ 'active': $route.path === '/about' }"
+          >About
+          </router-link>
+          <router-link
               to="/blog"
               class="nav-link"
               :class="{ 'active': $route.path === '/blog' }"
