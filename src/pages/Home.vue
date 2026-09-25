@@ -7,15 +7,13 @@
           <!-- Hero Section Variant 3: Terminal Aesthetic -->
           <section class="hero-section">
             <div class="hero-content-container">
-              <h1 class="hero-title">
-                Simplifying Complexity
-              </h1>
+              <h2 class="hero-title">
+                Software Engineer & Architect
+              </h2>
               <p class="hero-description">
-                Architecting scalable, secure, and high-performance distributed backend systems.
-              </p>
-              <p class="hero-secondary-description">
-                Experienced in
-                delivering compliant, data-sensitive commerce platforms across Europe.
+                I build software, design systems, and help teams make technical decisions. I’ve worked across backend
+                engineering, distributed systems, and software architecture, both as part of engineering teams and as an
+                independent consultant.
               </p>
               <div class="hero-actions">
                 <router-link
@@ -93,8 +91,10 @@
               </router-link>
             </div>
             <div class="highlights-actions">
-              <router-link to="/case-studies" class="highlights-action">View all Case Studies <span aria-hidden="true">→</span></router-link>
-              <router-link to="/blog" class="highlights-action">Read the Blog <span aria-hidden="true">→</span></router-link>
+              <router-link to="/case-studies" class="highlights-action">View all Case Studies <span
+                  aria-hidden="true">→</span></router-link>
+              <router-link to="/blog" class="highlights-action">Read the Blog <span aria-hidden="true">→</span>
+              </router-link>
             </div>
           </section>
           <section v-if="false">

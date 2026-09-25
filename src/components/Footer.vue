@@ -46,7 +46,7 @@
           </a>
 
         </div>
-        <p class="copyright">©2025 marmoush.com, All rights reserved.</p>
+        <p class="copyright">©2026 marmoush.com, All rights reserved.</p>
       </footer>
     </div>
   </footer>

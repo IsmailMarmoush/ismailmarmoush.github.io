@@ -2,15 +2,6 @@
   <div class="engineering-page">
     <div class="engineering-content">
 
-      <!-- Hero Section -->
-      <div class="engineering-hero">
-        <h1>Engineering</h1>
-        <p> I design and build reliable, scalable systems using modern architectures, proven engineering practices, and
-          technologies suited to the problem. I help startups and growing businesses modernize, scale, and secure their
-          technology, working closely with teams to understand the problem, reduce unnecessary complexity, and choose
-          solutions that fit the business. </p>
-      </div>
-
       <!-- Architecture & Best Practices -->
       <section class="engineering-architecture">
         <h2 class="engineering-section-title">Architecture &amp; Design</h2>

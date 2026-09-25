@@ -2,15 +2,6 @@
   <div class="case-studies-page">
     <div class="case-studies-content">
 
-      <!-- Case Studies Hero -->
-      <section class="case-studies-intro">
-        <h1>Case Studies</h1>
-        <p>
-          Selected projects where I designed, built, and modernized production systems
-          across different industries and technical environments.
-        </p>
-      </section>
-
       <!-- Case Studies -->
       <section class="case-studies-list" id="case-studies">
         <div class="case-studies-grid">
