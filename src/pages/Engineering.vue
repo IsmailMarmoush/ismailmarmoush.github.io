@@ -13,6 +13,7 @@
 
       <!-- Architecture & Best Practices -->
       <section class="engineering-architecture">
+        <h2 class="engineering-section-title">Architecture &amp; Design</h2>
         <div class="engineering-architecture-grid">
           <div class="engineering-feature-card">
             <div class="engineering-feature-icon">
@@ -109,8 +110,9 @@
         </div>
       </section>
 
-      <!-- Security Section -->
+      <!-- Security & Reliability -->
       <section class="engineering-security">
+        <h2 class="engineering-section-title">Security &amp; Reliability</h2>
         <div class="engineering-security-grid">
           <div>
             <h3>Zero Trust Security Model</h3>
@@ -135,31 +137,35 @@
           </div>
 
           <div>
-            <h3>Enterprise Security Features</h3>
+            <h3>Enterprise Security</h3>
             <ul class="engineering-security-list">
-              <li>
-                <span>✓</span>
-                <span>Multi-Tenant Authentication &amp; SSO</span>
-              </li>
-              <li>
-                <span>✓</span>
-                <span>Tenant Isolation and Scoped Authorization</span>
-              </li>
-              <li>
-                <span>✓</span>
-                <span>OWASP Top 10 Compliance</span>
-              </li>
-              <li>
-                <span>✓</span>
-                <span>Secure Software Development Lifecycle (SSDLC)</span>
-              </li>
+              <li><span>✓</span><span>Multi-tenant authentication and SSO</span></li>
+              <li><span>✓</span><span>Tenant isolation and scoped authorization</span></li>
+              <li><span>✓</span><span>OWASP Top 10 and secure delivery practices</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Observability</h3>
+            <ul class="engineering-security-list">
+              <li><span>✓</span><span>Monitoring, tracing, and logging built into every solution</span></li>
+              <li><span>✓</span><span>Actionable signals for fast diagnosis and confident operations</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>System Reliability</h3>
+            <ul class="engineering-security-list">
+              <li><span>✓</span><span>Resilient systems designed for failure and change</span></li>
+              <li><span>✓</span><span>Dependable services as usage and requirements evolve</span></li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- Technology Stack -->
+      <!-- Technologies -->
       <section class="engineering-technology">
+        <h2 class="engineering-section-title">Technologies</h2>
         <div class="engineering-technology-grid">
           <div class="engineering-technology-card">
             <h3>Languages</h3>
@@ -168,15 +174,15 @@
               <li>Kotlin</li>
               <li>Scala</li>
               <li>TypeScript</li>
-              <li>Rust (Evaluating)</li>
+              <li>Rust</li>
             </ul>
           </div>
 
           <div class="engineering-technology-card">
-            <h3>Frameworks</h3>
+            <h3>Frameworks &amp; Build</h3>
             <ul>
-              <li>Oracle Helidon</li>
               <li>Spring</li>
+              <li>Helidon</li>
               <li>Maven</li>
               <li>Gradle</li>
             </ul>
@@ -194,28 +200,28 @@
           </div>
 
           <div class="engineering-technology-card">
-            <h3>Messaging &amp; Event Streaming</h3>
+            <h3>Messaging &amp; Data</h3>
             <ul>
-              <li>Apache Kafka</li>
-              <li>Apache Pulsar</li>
-              <li>Event Streaming</li>
-              <li>Message Queuing</li>
+              <li>Kafka</li>
+              <li>Pulsar</li>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>Redis</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- Engineering Principles -->
+      <!-- How I Work -->
       <section class="engineering-principles">
-        <h2>How I Work</h2>
+        <h2 class="engineering-section-title">How I Work</h2>
         <div class="engineering-principles-grid">
           <article class="engineering-principle-card">
             <div class="engineering-principle-heading">
               <div class="engineering-principle-icon">⚡</div>
               <h3>Simplicity Over Complexity</h3>
             </div>
-            <p>I prefer simple solutions that solve the actual problem without unnecessary abstractions, infrastructure,
-              or complexity.</p>
+            <p>I prefer simple solutions that solve the actual problem without unnecessary abstractions, infrastructure, or complexity.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -223,8 +229,7 @@
               <div class="engineering-principle-icon">◉</div>
               <h3>Transparency</h3>
             </div>
-            <p>I communicate openly about technical trade-offs, risks, and constraints, and work collaboratively with
-              the people involved.</p>
+            <p>I communicate openly about technical trade-offs, risks, and constraints, and work collaboratively with the people involved.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -232,8 +237,7 @@
               <div class="engineering-principle-icon">✓</div>
               <h3>Technical Excellence</h3>
             </div>
-            <p>I care about technical quality, clean design, and systems that remain understandable and maintainable as
-              they evolve.</p>
+            <p>I care about technical quality, clean design, and systems that remain understandable and maintainable as they evolve.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -241,8 +245,7 @@
               <div class="engineering-principle-icon">✦</div>
               <h3>Deep Expertise</h3>
             </div>
-            <p>My experience spans backend engineering, distributed systems, JVM ecosystems, cloud infrastructure, and
-              software architecture.</p>
+            <p>My experience spans backend engineering, distributed systems, JVM ecosystems, cloud infrastructure, and software architecture.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -250,8 +253,7 @@
               <div class="engineering-principle-icon">▣</div>
               <h3>Security-First</h3>
             </div>
-            <p>I treat security as part of the architecture, with appropriate attention to identity, authorization,
-              isolation, and secure delivery.</p>
+            <p>I treat security as part of the architecture, with appropriate attention to identity, authorization, isolation, and secure delivery.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -259,8 +261,7 @@
               <div class="engineering-principle-icon">▥</div>
               <h3>Observability</h3>
             </div>
-            <p>I design systems with monitoring, tracing, and logging as integral parts of the system rather than
-              afterthoughts.</p>
+            <p>I design systems with monitoring, tracing, and logging as integral parts of the system rather than afterthoughts.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -268,8 +269,7 @@
               <div class="engineering-principle-icon">◷</div>
               <h3>Iterative Delivery</h3>
             </div>
-            <p>I prefer small, iterative steps with continuous feedback over trying to design and deliver everything
-              upfront.</p>
+            <p>I prefer small, iterative steps with continuous feedback over trying to design and deliver everything upfront.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -277,18 +277,8 @@
               <div class="engineering-principle-icon">✓</div>
               <h3>System Reliability</h3>
             </div>
-            <p>I build for failure and change, with an emphasis on resilient systems that remain dependable as usage and
-              requirements evolve.</p>
+            <p>I build for failure and change, with an emphasis on resilient systems that remain dependable as usage and requirements evolve.</p>
           </article>
-
-          <article class="engineering-principle-card">
-            <div class="engineering-principle-heading">
-              <div class="engineering-principle-icon">⏱</div>
-              <h3>27/7 Support</h3>
-            </div>
-            <p>Round-the-clock expert support ensuring your systems run smoothly at all times.</p>
-          </article>
-
         </div>
       </section>
     </div>
@@ -513,6 +503,15 @@ watch(() => route.params.caseStudyId, async newCaseStudyId => {
 }
 
 /* Security */
+
+.engineering-section-title {
+  margin: 0 0 2rem;
+  color: #1f2937;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
 
 .engineering-security {
   margin-bottom: 4rem;

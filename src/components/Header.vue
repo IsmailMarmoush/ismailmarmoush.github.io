@@ -38,6 +38,12 @@
               :class="{ 'active': $route.path === '/blog' }"
           >Blog
           </router-link>
+          <router-link
+              to="/contact"
+              class="nav-link"
+              :class="{ 'active': $route.path === '/contact' }"
+          >Contact
+          </router-link>
         </nav>
       </div>
     </div>

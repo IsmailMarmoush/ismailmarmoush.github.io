@@ -149,158 +149,27 @@
           </section>
         </div>
 
-        <!--   Skills and Interests     -->
-        <div class="section-column">
-          <section>
-            <h2 class="section-heading">Skills & Interests</h2>
-            <div class="skills-card">
-              <div class="skills-list">
-                <!-- Programming Languages -->
-                <div class="skill-group">
-                  <div class="skill-info">
-                    <div class="skill-header">
-                      <span class="skill-dot ">●</span>
-                      <span class="skill-name">Programming Languages</span>
-                    </div>
-                    <div class="skill-tags">
-                      <span class="skill-tag">Java</span>
-                      <span class="skill-tag">Kotlin</span>
-                      <span class="skill-tag">Scala</span>
-                      <span class="skill-tag">JavaScript</span>
-                      <span class="skill-tag">Rust</span>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Architecture & Paradigms -->
-                <div class="skill-group">
-                  <div class="skill-info">
-                    <div class="skill-header">
-                      <span class="skill-dot ">●</span>
-                      <span class="skill-name">Architecture & Paradigms</span>
-                    </div>
-                    <div class="skill-tags">
-                      <span class="skill-tag">Hexagonal Architecture</span>
-                      <span class="skill-tag">Event Sourcing</span>
-                      <span class="skill-tag">CQRS</span>
-                      <span class="skill-tag">DDD</span>
-                      <span class="skill-tag">Object-Oriented Programming</span>
-                      <span class="skill-tag">Functional Programming</span>
-                      <span class="skill-tag">Reactive Programming</span>
-                      <span class="skill-tag">Event Driven Architecture</span>
-                      <span class="skill-tag">System Design</span>
-                      <span class="skill-tag">Clean Code</span>
-                      <span class="skill-tag">Refactoring</span>
-                      <span class="skill-tag">Test-Driven Development</span>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Tech Stack & Tools -->
-                <div class="skill-group">
-                  <div class="skill-info">
-                    <div class="skill-header">
-                      <span class="skill-dot ">●</span>
-                      <span class="skill-name">Tech Stack & Tools</span>
-                    </div>
-                    <div class="skill-tags">
-                      <span class="skill-tag">Reactive Streams</span>
-                      <span class="skill-tag">Project Reactor</span>
-                      <span class="skill-tag">VAVR</span>
-                      <span class="skill-tag">Spring Framework</span>
-                      <span class="skill-tag">Maven</span>
-                      <span class="skill-tag">Gradle</span>
-                      <span class="skill-tag">Oracle Helidon SE</span>
-                      <span class="skill-tag">Flutter</span>
-                      <span class="skill-tag">Web Development</span>
-                      <span class="skill-tag">12 Factor App</span>
-                      <span class="skill-tag">Kafka</span>
-                      <span class="skill-tag">Redis</span>
-                      <span class="skill-tag">MySQL</span>
-                      <span class="skill-tag">PostgreSQL</span>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- DevOps & Cloud -->
-                <div class="skill-group">
-                  <div class="skill-info">
-                    <div class="skill-header">
-                      <span class="skill-dot ">●</span>
-                      <span class="skill-name">DevOps & Cloud</span>
-                    </div>
-                    <div class="skill-tags">
-                      <span class="skill-tag">Linux</span>
-                      <span class="skill-tag">Bash</span>
-                      <span class="skill-tag">Docker</span>
-                      <span class="skill-tag">Git</span>
-                      <span class="skill-tag">GitHub Actions</span>
-                      <span class="skill-tag">Ansible</span>
-                      <span class="skill-tag">AWS</span>
-                      <span class="skill-tag">Kubernetes</span>
-                      <span class="skill-tag">CI/CD</span>
-                      <span class="skill-tag">Security</span>
-                      <span class="skill-tag">Cloud Solutions</span>
-                      <span class="skill-tag">GCP</span>
-                      <span class="skill-tag">Debian</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-
       </div>
 
-      <!--  Contact section    -->
-      <div class="contact-section">
-        <h2 class="section-heading">Contact & Collaboration</h2>
-        <div class="contact-card">
-          <div class="contact-grid">
-            <!-- Left: bigger CTA / context -->
-            <div class="contact-left">
-              <p class="contact-text">I'm available for consulting, short-term
-                engagements, and speaking at events. Use the links to the right to view projects, connect
-                professionally, or reach out. I typically reply within a few business days.
-              </p>
-              <p class="contact-text margin-top-4">
-                If you'd like to discuss a specific project, include a brief summary and your timeline when you reach
-                out.</p>
-            </div>
-
-            <!-- Right: large, clear action links -->
-            <div class="contact-right">
-              <div class="contact-links">
-                <a href="https://www.linkedin.com/in/ismailmarmoush" target="_blank" rel="noopener noreferrer"
-                   class="social-btn linkedin-btn">
-                  <svg class="social-btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path
-                        d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM8.5 8h3.84v2.18h.05c.54-1.02 1.86-2.09 3.84-2.09 4.11 0 4.87 2.71 4.87 6.24V24h-4v-7.3c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.79 1.9-2.79 3.86V24h-4V8z"/>
-                  </svg>
-                  <span>LinkedIn</span>
-                </a>
-
-                <a href="https://github.com/ismailmarmoush" target="_blank" rel="noopener noreferrer"
-                   class="social-btn github-btn">
-                  <svg class="social-btn-icon github-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                          d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.38 7.86 10.9.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.36-1.3-1.72-1.3-1.72-1.06-.72.08-.7.08-.7 1.18.08 1.8 1.21 1.8 1.21 1.04 1.78 2.73 1.26 3.4.96.11-.75.41-1.26.75-1.55-2.56-.29-5.26-1.28-5.26-5.72 0-1.26.45-2.29 1.2-3.1-.12-.29-.52-1.45.11-3.02 0 0 .98-.31 3.2 1.18a11.15 11.15 0 012.92-.39c.99 0 1.99.13 2.92.39 2.22-1.5 3.2-1.18 3.2-1.18.63 1.57.23 2.73.11 3.02.74.81 1.2 1.84 1.2 3.1 0 4.45-2.71 5.42-5.29 5.71.42.36.8 1.07.8 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.2.67.8.56A11.52 11.52 0 0023.5 12C23.5 5.65 18.35.5 12 .5z"
-                          clip-rule="evenodd"/>
-                  </svg>
-                  <span>GitHub</span>
-                </a>
-                <a href="https://stackoverflow.com/users/263215/ismail-marmoush" target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-btn stack-overflow-btn">
-                  <img src="https://stackoverflow.com/users/flair/263215.png?theme=clean" alt="Stack Overflow Profile"
-                       class="so-flair"/>
-                </a>
-              </div>
-            </div>
+      <!-- Contact section -->
+      <section class="home-contact-section">
+        <div class="home-contact-card">
+          <div class="home-contact-copy">
+            <span class="home-contact-eyebrow">Have a project in mind?</span>
+            <h2>Let's work together</h2>
+            <p>
+              Whether you need help with a technical challenge or want to discuss
+              a consulting engagement, let's start a conversation.
+            </p>
           </div>
+          <router-link to="/contact" class="home-contact-button">
+            Get in touch
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path d="M5 12h14m-6-6 6 6-6 6"/>
+            </svg>
+          </router-link>
         </div>
-      </div>
+      </section>
     </div>
   </div>
 </template>
@@ -574,48 +443,48 @@ const scrollToSection = () => {
   margin-top: 2.5rem;
 }
 
-.project-card, .skills-card {
+.project-card {
   background-color: #ffffff;
   border-radius: 0.5rem;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   overflow: hidden;
 }
 
-.project-list, .skills-list {
+.project-list {
   display: flex;
   flex-direction: column;
 }
 
-.project-list > * + *, .skills-list > * + * {
+.project-list > * + * {
   border-top: 1px solid #e5e7eb;
 }
 
-.project-item, .skill-group {
+.project-item {
   display: flex;
   align-items: center;
   padding: 1rem;
   transition: background-color 0.2s;
 }
 
-.project-item:hover, .skill-group:hover {
+.project-item:hover {
   background-color: #f9fafb;
 }
 
-.project-info, .skill-info {
+.project-info {
   flex: 1 1 0%;
 }
 
-.project-name-wrapper, .skill-header {
+.project-name-wrapper {
   display: flex;
   align-items: center;
   gap: 0.75rem;
 }
 
-.project-dot, .skill-dot {
+.project-dot {
   flex-shrink: 0;
 }
 
-.project-name, .skill-name {
+.project-name {
   color: #101418;
   font-weight: 500;
 }
@@ -675,85 +544,77 @@ const scrollToSection = () => {
   color: #1f2937;
 }
 
-.skill-tags {
-  margin-left: 1.5rem;
-  margin-top: 0.25rem;
-  font-size: 0.875rem;
-  color: #5c738a;
+.home-contact-section {
+  margin-bottom: 2rem;
+}
+
+.home-contact-card {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.skill-tag {
-  margin-right: 1rem;
-}
-
-.contact-section {
-  margin-bottom: 0;
-}
-
-.contact-card {
-  background-color: #ffffff;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  padding: 1.5rem;
-}
-
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-  align-items: flex-start;
-}
-
-@media (min-width: 1024px) {
-  .contact-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .contact-left {
-    grid-column: span 2 / span 2;
-  }
-}
-
-.contact-text {
-  color: #5c738a;
-  margin-top: 1rem;
-  max-width: 48rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (min-width: 1024px) {
-  .contact-text {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-.margin-top-4 {
-  margin-top: 1rem;
-}
-
-.contact-right {
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 2.25rem;
+  border: 1px solid rgb(63 127 191 / 18%);
+  border-radius: 0.75rem;
+  background: linear-gradient(120deg, #fff, rgb(63 127 191 / 5%));
+  box-shadow: 0 8px 24px rgb(16 20 24 / 6%);
 }
 
-@media (min-width: 1024px) {
-  .contact-right {
-    align-items: flex-end;
+.home-contact-copy {
+  max-width: 42rem;
+}
+
+.home-contact-eyebrow {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #3f7fbf;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-contact-copy h2 {
+  margin-bottom: 0.5rem;
+  color: #101418;
+  font-size: 1.5rem;
+}
+
+.home-contact-copy p {
+  color: #5c738a;
+  line-height: 1.625;
+}
+
+.home-contact-button {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  background: #3f7fbf;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.home-contact-button:hover {
+  background: #2d5d8f;
+  transform: translateY(-2px);
+}
+
+.home-contact-button svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+@media (max-width: 640px) {
+  .home-contact-card {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1.5rem;
   }
-}
-
-.contact-links {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 20rem;
-  gap: 0.75rem;
 }
 
 .social-btn {

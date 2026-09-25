@@ -4,6 +4,7 @@ import Blog from '../pages/Blog.vue'
 import Engineering from '../pages/Engineering.vue'
 import CaseStudies from "../pages/CaseStudies.vue";
 import About from '../pages/About.vue'
+import Contact from '../pages/Contact.vue'
 
 // Declare gtag for TypeScript
 declare global {
@@ -25,6 +26,7 @@ const router = createRouter({
         { path: '/case-studies/:caseStudyId', name: 'case-study-detail', component: CaseStudies },
         { path: '/case-studies', name: 'case-studies', component: CaseStudies },
         { path: '/about', name: 'about', component: About },
+        { path: '/contact', name: 'contact', component: Contact },
     ]
 })
 
