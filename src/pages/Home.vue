@@ -61,6 +61,44 @@
       <div class="content-section-grid">
         <div class="section-column">
           <section>
+            <div ref="targetSection" class="highlights-heading">
+              <div>
+                <span class="highlights-eyebrow">Highlights</span>
+                <h2 class="section-heading">A small selection of my work and writing.</h2>
+              </div>
+            </div>
+            <div class="highlights-grid">
+              <router-link to="/case-studies/glovo" class="highlight-card">
+                <span class="highlight-type">Case Study</span>
+                <h3>Glovo — Home page Microservice</h3>
+                <p>Extraction of home page functionality into a dedicated microservice.</p>
+                <span class="highlight-arrow">View case study <span aria-hidden="true">→</span></span>
+              </router-link>
+              <router-link to="/case-studies/zalando" class="highlight-card">
+                <span class="highlight-type">Case Study</span>
+                <h3>Zalando — Operating at Scale</h3>
+                <p>Engineering a Tier-1 service in a large distributed environment.</p>
+                <span class="highlight-arrow">View case study <span aria-hidden="true">→</span></span>
+              </router-link>
+              <router-link to="/blog/2019-06-27-best-keyboard-for-programming" class="highlight-card">
+                <span class="highlight-type">Article</span>
+                <h3>Best Keyboard for Programming</h3>
+                <p>A practical look at choosing a keyboard for comfortable, focused programming work.</p>
+                <span class="highlight-arrow">Read article <span aria-hidden="true">→</span></span>
+              </router-link>
+              <router-link to="/blog/2020-12-25-microservice-sizing-without-pizza" class="highlight-card">
+                <span class="highlight-type">Article</span>
+                <h3>How big a microservice should be without pizzas</h3>
+                <p>A practical look at the technical and organizational signals behind service boundaries.</p>
+                <span class="highlight-arrow">Read article <span aria-hidden="true">→</span></span>
+              </router-link>
+            </div>
+            <div class="highlights-actions">
+              <router-link to="/case-studies" class="highlights-action">View all Case Studies <span aria-hidden="true">→</span></router-link>
+              <router-link to="/blog" class="highlights-action">Read the Blog <span aria-hidden="true">→</span></router-link>
+            </div>
+          </section>
+          <section v-if="false">
             <h2 ref="targetSection" class="section-heading">
               What I'm Building
             </h2>
@@ -441,6 +479,107 @@ const scrollToSection = () => {
   font-size: 1.5rem;
   margin-bottom: 1.25rem;
   margin-top: 2.5rem;
+}
+
+.highlights-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.highlights-eyebrow {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #3f7fbf;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.highlights-heading .section-heading {
+  margin: 0;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.highlight-card {
+  display: flex;
+  min-height: 12rem;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.highlight-card:hover {
+  border-color: rgb(63 127 191 / 35%);
+  box-shadow: 0 8px 20px rgb(16 20 24 / 8%);
+  transform: translateY(-2px);
+}
+
+.highlight-type {
+  margin-bottom: 0.75rem;
+  color: #3f7fbf;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.highlight-card h3 {
+  margin: 0;
+  color: #101418;
+  font-size: 1.1rem;
+  line-height: 1.35;
+}
+
+.highlight-card p {
+  margin: 0.75rem 0 1.25rem;
+  color: #5c738a;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.highlight-arrow {
+  margin-top: auto;
+  color: #2d5d8f;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.highlights-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.highlights-action {
+  color: #2d5d8f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.highlights-action:hover {
+  color: #3f7fbf;
+}
+
+@media (max-width: 640px) {
+  .highlights-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project-card {
