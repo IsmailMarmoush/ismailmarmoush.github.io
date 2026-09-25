@@ -64,7 +64,6 @@
             <div ref="targetSection" class="highlights-heading">
               <div>
                 <span class="highlights-eyebrow">Highlights</span>
-                <h2 class="section-heading">A small selection of my work and writing.</h2>
               </div>
             </div>
             <div class="highlights-grid">
