@@ -342,7 +342,18 @@ watch(currentArticle, (newArticle) => {
 
 .prose :deep(pre code) {
   display: block;
-  min-width: max-content;
+}
+
+@media (max-width: 639px) {
+  .prose :deep(pre) {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .prose :deep(pre code) {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
 }
 
 /* Add scroll margin to headers */

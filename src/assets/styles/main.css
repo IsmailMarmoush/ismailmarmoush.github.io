@@ -241,8 +241,6 @@ ul {
 }
 
 .prose pre code {
-    display: block;
-    min-width: max-content;
     padding: 0;
     color: inherit;
     font: inherit;
