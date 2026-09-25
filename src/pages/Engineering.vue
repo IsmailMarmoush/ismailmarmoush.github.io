@@ -63,7 +63,8 @@
               </svg>
             </div>
             <h3>12-Factor App</h3>
-            <p>Cloud-native applications following modern development principles.</p>
+            <p>A practical methodology for building cloud-ready software that is portable, easy to deploy, and
+              consistent across development and production environments.</p>
           </div>
 
           <div class="engineering-feature-card">
@@ -92,10 +93,10 @@
                 />
               </svg>
             </div>
-            <h3>Serverless support</h3>
+            <h3>Cloud Native</h3>
             <p>
-              Designed to support serverless where it makes sense—event-driven,
-              auto-scaling, and infrastructure-free.
+              Building applications designed for modern cloud environments, with automation, observability, resilience,
+              and independent services that can evolve and scale independently.
             </p>
           </div>
         </div>
@@ -212,7 +213,8 @@
               <div class="engineering-principle-icon">⚡</div>
               <h3>Simplicity Over Complexity</h3>
             </div>
-            <p>I prefer simple solutions that solve the actual problem without unnecessary abstractions, infrastructure, or complexity.</p>
+            <p>I prefer simple solutions that solve the actual problem without unnecessary abstractions, infrastructure,
+              or complexity.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -220,7 +222,8 @@
               <div class="engineering-principle-icon">◉</div>
               <h3>Transparency</h3>
             </div>
-            <p>I communicate openly about technical trade-offs, risks, and constraints, and work collaboratively with the people involved.</p>
+            <p>I communicate openly about technical trade-offs, risks, and constraints, and work collaboratively with
+              the people involved.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -228,7 +231,8 @@
               <div class="engineering-principle-icon">✓</div>
               <h3>Technical Excellence</h3>
             </div>
-            <p>I care about technical quality, clean design, and systems that remain understandable and maintainable as they evolve.</p>
+            <p>I care about technical quality, clean design, and systems that remain understandable and maintainable as
+              they evolve.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -236,7 +240,8 @@
               <div class="engineering-principle-icon">✦</div>
               <h3>Deep Expertise</h3>
             </div>
-            <p>My experience spans backend engineering, distributed systems, JVM ecosystems, cloud infrastructure, and software architecture.</p>
+            <p>My experience spans backend engineering, distributed systems, JVM ecosystems, cloud infrastructure, and
+              software architecture.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -244,7 +249,8 @@
               <div class="engineering-principle-icon">▣</div>
               <h3>Security-First</h3>
             </div>
-            <p>I treat security as part of the architecture, with appropriate attention to identity, authorization, isolation, and secure delivery.</p>
+            <p>I treat security as part of the architecture, with appropriate attention to identity, authorization,
+              isolation, and secure delivery.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -252,7 +258,8 @@
               <div class="engineering-principle-icon">▥</div>
               <h3>Observability</h3>
             </div>
-            <p>I design systems with monitoring, tracing, and logging as integral parts of the system rather than afterthoughts.</p>
+            <p>I design systems with monitoring, tracing, and logging as integral parts of the system rather than
+              afterthoughts.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -260,7 +267,8 @@
               <div class="engineering-principle-icon">◷</div>
               <h3>Iterative Delivery</h3>
             </div>
-            <p>I prefer small, iterative steps with continuous feedback over trying to design and deliver everything upfront.</p>
+            <p>I prefer small, iterative steps with continuous feedback over trying to design and deliver everything
+              upfront.</p>
           </article>
 
           <article class="engineering-principle-card">
@@ -268,7 +276,8 @@
               <div class="engineering-principle-icon">✓</div>
               <h3>System Reliability</h3>
             </div>
-            <p>I build for failure and change, with an emphasis on resilient systems that remain dependable as usage and requirements evolve.</p>
+            <p>I build for failure and change, with an emphasis on resilient systems that remain dependable as usage and
+              requirements evolve.</p>
           </article>
         </div>
       </section>
