@@ -33,6 +33,18 @@
             </svg>
           </a>
 
+          <!-- Email -->
+          <a href="mailto:contact@marmoush.com"
+             class="social-link email"
+             aria-label="Email contact@marmoush.com">
+            <svg class="social-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
+                    d="M3 6.75A1.75 1.75 0 0 1 4.75 5h14.5A1.75 1.75 0 0 1 21 6.75v10.5A1.75 1.75 0 0 1 19.25 19H4.75A1.75 1.75 0 0 1 3 17.25V6.75Z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
+                    d="m3.5 6.5 8.5 6 8.5-6"/>
+            </svg>
+          </a>
+
         </div>
         <p class="copyright">©2025 marmoush.com, All rights reserved.</p>
       </footer>
@@ -113,6 +125,10 @@ const footerLinks = []
 
 .social-link.github:hover {
   color: #181717;
+}
+
+.social-link.email:hover {
+  color: #3f7fbf;
 }
 
 .social-icon {

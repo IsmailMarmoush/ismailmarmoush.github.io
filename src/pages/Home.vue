@@ -274,7 +274,7 @@ const scrollToSection = () => {
   position: relative;
   overflow: hidden;
   background-color: #ffffff;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   padding-top: 1rem;
 }
 
@@ -295,7 +295,7 @@ const scrollToSection = () => {
   }
 
   .hero-section {
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
     padding-top: 1rem;
   }
 
@@ -459,6 +459,23 @@ const scrollToSection = () => {
   height: 0.5rem;
   width: 0.5rem;
   border-radius: 9999px;
+  background-color: #3f7fbf;
+}
+
+.stack-item:nth-child(2) .dot {
+  background-color: #8b5cf6;
+}
+
+.stack-item:nth-child(3) .dot {
+  background-color: #10b981;
+}
+
+.stack-item:nth-child(4) .dot {
+  background-color: #f59e0b;
+}
+
+.stack-item:nth-child(5) .dot {
+  background-color: #ef4444;
 }
 
 .content-section-grid {
