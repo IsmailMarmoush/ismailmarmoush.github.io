@@ -299,6 +299,7 @@ watch(currentArticle, (newArticle) => {
 .prose-container {
   max-width: none;
   width: 100%;
+  min-width: 0;
 }
 
 .article-header {
@@ -329,6 +330,19 @@ watch(currentArticle, (newArticle) => {
 
 .prose {
   max-width: none;
+  min-width: 0;
+}
+
+.prose :deep(pre) {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre;
+  word-break: normal;
+}
+
+.prose :deep(pre code) {
+  display: block;
+  min-width: max-content;
 }
 
 /* Add scroll margin to headers */
