@@ -252,6 +252,7 @@ watch(currentArticle, (newArticle) => {
 .blog-layout {
   position: relative;
   display: flex;
+  flex-direction: column;
   gap: 1.5rem;
 }
 
@@ -260,6 +261,10 @@ watch(currentArticle, (newArticle) => {
 }
 
 @media (min-width: 1024px) {
+  .blog-layout {
+    flex-direction: row;
+  }
+
   .sidebar-left {
     display: block;
     width: 16rem;
@@ -339,19 +344,27 @@ watch(currentArticle, (newArticle) => {
 }
 
 .sidebar-right {
-  display: none;
+  display: block !important;
+  order: -1;
+  width: 100%;
+  margin-top: 2.5rem;
 }
 
 @media (min-width: 1024px) {
   .sidebar-right {
-    display: block;
+    order: initial;
     width: 16rem;
+    margin-top: 0;
   }
 
   .blog-list-wrapper {
     position: sticky;
     top: 8rem;
   }
+}
+
+.blog-list-wrapper {
+  display: block;
 }
 
 .blog-list-content {
@@ -412,5 +425,15 @@ watch(currentArticle, (newArticle) => {
 .post-link.active {
   color: #3f7fbf;
   font-weight: 500;
+}
+
+@media (max-width: 1023px) {
+  .sidebar-right {
+    margin-top: 0;
+    padding: 1.25rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+  }
 }
 </style>
