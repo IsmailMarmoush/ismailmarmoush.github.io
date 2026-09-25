@@ -61,7 +61,18 @@
       "filePath": "blog/2025-06-25-notice.md",
       "title": "Notice",
       "lastUpdated": "2025-06-25"
+    },
+    {
+        "filePath": "blog/2025-06-26-argon.md",
+        "title": "Argon product",
+        "lastUpdated": "2025-06-26"
+    },
+    {
+        "filePath": "blog/2025-06-28-helium.md",
+        "title": "Helium product",
+        "lastUpdated": "2025-06-28"
     }
+
   ],
   "caseStudies": [
     {
