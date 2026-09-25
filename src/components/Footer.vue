@@ -53,7 +53,7 @@
 </template>
 
 <script setup lang="ts">
-const footerLinks = []
+const footerLinks: any[] = []
 </script>
 
 <style scoped>
