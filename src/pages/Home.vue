@@ -84,8 +84,8 @@
               </router-link>
               <router-link to="/blog/2019-06-27-best-keyboard-for-programming" class="highlight-card">
                 <span class="highlight-type">Article</span>
-                <h3>Best Keyboard for Programming</h3>
-                <p>A practical look at choosing a keyboard for comfortable, focused programming work.</p>
+                <h3>Project Helium</h3>
+                <p>Cloud-native Java microservice foundation with AI support.</p>
                 <span class="highlight-arrow">Read article <span aria-hidden="true">→</span></span>
               </router-link>
               <router-link to="/blog/2020-12-25-microservice-sizing-without-pizza" class="highlight-card">
