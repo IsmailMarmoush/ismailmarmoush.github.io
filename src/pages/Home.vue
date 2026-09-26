@@ -11,14 +11,14 @@
                 Software Engineer & Architect
               </h2>
               <p class="hero-description">
-                I have 12+ years of experience building distributed systems with Java and Kotlin, from modular monoliths
+                I have 12+ years of experience building distributed systems with Java and Kotlin, from monoliths
                 to microservices. I've worked with Domain-Driven Design, test-driven development, security, and
                 performance along the way.
               </p>
               <p class="hero-description">
-                I’ve worked on data-sensitive and regulated commerce platforms across Europe, both as part of
-                engineering teams and as an independent consultant. I’m also expanding my work into enterprise
-                architecture, Rust, Android, and applied cryptography.
+                I’ve worked on data-sensitive and regulated commerce platforms across Europe (GDPR, Data Protection
+                Act), both as part of engineering teams and as an independent consultant. I’m also expanding my work
+                into enterprise architecture, Rust, Android, and applied cryptography.
               </p>
               <div class="hero-actions">
                 <router-link
