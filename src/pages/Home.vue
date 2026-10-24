@@ -7,9 +7,9 @@
           <!-- Hero Section Variant 3: Terminal Aesthetic -->
           <section class="hero-section">
             <div class="hero-content-container">
-              <h2 class="hero-title">
+              <h3 class="hero-title">
                 Software Architect & Consultant
-              </h2>
+              </h3>
               <p class="hero-description">
                 I have 13+ years of experience building distributed systems with Java and Kotlin, from monoliths
                 to microservices. I've worked with Domain-Driven Design, test-driven development, security, and
