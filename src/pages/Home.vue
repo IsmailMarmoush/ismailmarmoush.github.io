@@ -8,7 +8,11 @@
           <section class="hero-section">
             <div class="hero-content-container">
               <h3 class="hero-title">
-                Software Architect & Consultant
+                Software Architect
+                <br/>
+                &
+                <br/>
+                Consultant
               </h3>
               <p class="hero-description">
                 I have 13+ years of experience building distributed systems with Java and Kotlin, from monoliths
@@ -344,7 +348,7 @@ const scrollToSection = () => {
 
 @media (min-width: 1024px) {
   .hero-title {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
