@@ -11,7 +11,7 @@
                 Software Architect & Consultant
               </h3>
               <p class="hero-description">
-                I have over 13 years of experience building software systems with Java and Kotlin, from monoliths to
+                I have over 13+ years of experience building software systems with Java and Kotlin, from monoliths to
                 microservices. Along the way, I've worked with Domain-Driven Design, test-driven development,
                 application security, and improving system performance, continually learning and refining my approach.
               </p>
