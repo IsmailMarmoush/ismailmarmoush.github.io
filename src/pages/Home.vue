@@ -8,16 +8,12 @@
           <section class="hero-section">
             <div class="hero-content-container">
               <h3 class="hero-title">
-                Software Architect
-                <br/>
-                &
-                <br/>
-                Consultant
+                Software Architect & Consultant
               </h3>
               <p class="hero-description">
-                I have 13+ years of experience building distributed systems with Java and Kotlin, from monoliths
-                to microservices. I've worked with Domain-Driven Design, test-driven development, security, and
-                performance along the way.
+                I have over 13 years of experience building software systems with Java and Kotlin, from monoliths to
+                microservices. Along the way, I've worked with Domain-Driven Design, test-driven development,
+                application security, and improving system performance, continually learning and refining my approach.
               </p>
               <p class="hero-description">
                 I’ve worked on data-sensitive and regulated commerce (GDPR, Data Protection Act) platforms across Europe
@@ -333,22 +329,23 @@ const scrollToSection = () => {
 
 .hero-title {
   margin-top: 2rem;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.025em;
   color: #0f172a;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .hero-title {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (min-width: 1024px) {
   .hero-title {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
