@@ -338,7 +338,7 @@ const scrollToSection = () => {
 
 @media (min-width: 768px) {
   .hero-title {
-    font-size: 3.75rem;
+    font-size: 3rem;
   }
 }
 
